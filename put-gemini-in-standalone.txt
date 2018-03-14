@@ -1,0 +1,10 @@
+How to put Gemini in standalone:
+
+Use Debug-plug
+When the diagnostic mode is on:
+Go to >> Utilities
+          >>Firmware
+          >>System manager
+         >>110672 code
+         >>Make 2nd option Set this terminal in standalone mode? as Yes
+

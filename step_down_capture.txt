@@ -1,0 +1,62 @@
+Primary
+
+[ibm459:/oltp:prosys]:/oltp/progam/mega/bin
+10: mega_pdf_stepdown
+
+PDF_STEPDOWN 1.00 Copyright 2013 GTECH Corporation. All rights reserved.
+
+
+Enter the Final Draw for the OLD matrix  [48] >38
+Next prompt for ease of testing.  LIVE SYSTEM SHOULD ENTER 15
+Enter the number of draws stepping down [15] >4
+
+
+Current Multi-Draw value is set to 4.  Will update from Draw 35 to Draw 38
+
+Updated Draw  35 (Version   5). Draws till new matrix  4. Multidraw Days Allowed :  1  2  3  4
+Updated Draw  36 (Version   6). Draws till new matrix  3. Multidraw Days Allowed :  1  2  3
+Updated Draw  37 (Version   7). Draws till new matrix  2. Multidraw Days Allowed :  1  2
+Updated Draw  38 (Version   8). Draws till new matrix  1. Multidraw Days Allowed :  1
+
+
+Finished updating the PDF for draws 35 to 38
+
+
+DELETE CHECKPOINTS BEFORE BRINGING THE PRODUCT UP!!!!
+
+[ibm459:/oltp:prosys]:/oltp/progam/mega/bin
+
+Secondary
+
+[ibm463:/oltp:prosys]:/oltp/progam/mega/bin
+7: mega_pdf_stepdown
+
+PDF_STEPDOWN 1.00 Copyright 2013 GTECH Corporation. All rights reserved.
+
+
+Enter the Final Draw for the OLD matrix  [48] >38
+Next prompt for ease of testing.  LIVE SYSTEM SHOULD ENTER 15
+Enter the number of draws stepping down [15] >4
+
+
+Current Multi-Draw value is set to 4.  Will update from Draw 35 to Draw 38
+
+Updated Draw  35 (Version   5). Draws till new matrix  4. Multidraw Days Allowed :  1  2  3  4
+Updated Draw  36 (Version   6). Draws till new matrix  3. Multidraw Days Allowed :  1  2  3
+Updated Draw  37 (Version   7). Draws till new matrix  2. Multidraw Days Allowed :  1  2
+Updated Draw  38 (Version   8). Draws till new matrix  1. Multidraw Days Allowed :  1
+
+
+Finished updating the PDF for draws 35 to 38
+
+
+DELETE CHECKPOINTS BEFORE BRINGING THE PRODUCT UP!!!!
+
+[ibm463:/oltp:prosys]:/oltp/progam/mega/bin
+
+
+NOTE:
+
+Make sure Product is down
+This utility won’t affect your current draw.
+Highlighted part is necessary if you have dual system.

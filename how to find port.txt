@@ -1,0 +1,189 @@
+login as: prosys
+prosys@ibm457's password:
+
+[ibm457::prosys]:/home/prosys
+1: cd gtms/bin
+ksh: cd: /home/prosys/gtms/bin - No such file or directory
+[ibm457::prosys]:/home/prosys
+2: cd /oltp
+[ibm457::prosys]:/oltp
+3: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+
+[ibm457:/oltp:prosys]:/oltp
+4: cd gtms/bin
+/oltp/platform/gtms/bin
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+5: ls
+adjtime_test*     gtms_errdef.dat  gxdualextract*  gxkillsys*    gxmjfutil*    gxpcfutil*    gxtime*         prod_kill*       run_gxoprsrv*
+bounce_gxmjfmon*  gtmspcf.fil      gxdualinject*   gxmjfdump*    gxmjfxfer*    gxrunsys*     gxtmir*         prod_start*      sizes*
+delglb*           gtms_qrysrv*     gxdumpgtms*     gxmjfmon*     gxmon*        gxserchk*     gxtrace*        prod_startover*  spy*
+delshrmem*        gxcdc*           gxexec*         gxmjfprod*    gxnplxu*      gxsetup*      gxtrycomp*      pswdmgr*         startover_prod*
+dumpsitecom*      gxdeinstall*     gxgencomp*      gxmjfsts*     gxoper*       gxstartcdc*   gxvision*       qry_gtms.mib     start_prosys*
+errno*            gxdisk*          gxguard*        gxmjftomjf*   gxoprsrv*     gxstate*      kill_gxoprsrv*  qry_gtms.mtd
+find_probuf*      gxdispcomp*      gxinstall*      gxmjftotape*  gxoprvision*  gxtapetomjf*  killsys*        resetmjfs*
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+6: more gtmspcf.fil
+comment "Created by GXPCFUTIL at MISSOURI LOTTERY on Aug 01 2016 at 13:41:23"
+
+GROUP_IDN "0"
+CYCLES_PER_SECOND "20"
+ENVIRONMENT "DEVELOPMENT"
+FILLGAP_INTERVAL "4"
+MAX_STOP_INTERVAL "4"
+LOCK_PAGES "0"
+LOST_CYCLES_THRESHOLD "20"
+SKIP_BAD_BUCKETS "0"
+SYNC_INTERVAL "10"
+TAKEOVER_MESSAGE_INTERVAL "5"
+UPDATE_MJF_HEADER_INTERVAL "300"
+WAIT_FOR_SPARE "0"
+MJF_SEAL_ALGO "3"
+NUMBER_OF_REGISTERED_TASKS "200"
+NUMBER_OF_SMALL_PROBUFS "30000"
+NUMBER_OF_MEDIUM_PROBUFS "15000"
+NUMBER_OF_LARGE_PROBUFS "1000"
+PERCENT_SMALL_PROBUFS_SUSPEND_REPROCESSING "60"
+PERCENT_MEDIUM_PROBUFS_SUSPEND_REPROCESSING "60"
+PERCENT_LARGE_PROBUFS_SUSPEND_REPROCESSING "60"
+PERCENT_SMALL_PROBUFS_SUSPEND_TERMINAL_INPUT "40"
+PERCENT_MEDIUM_PROBUFS_SUSPEND_TERMINAL_INPUT "40"
+PERCENT_LARGE_PROBUFS_SUSPEND_TERMINAL_INPUT "20"
+MAX_TERMINAL_MESSAGE_LENGTH "2048"
+SMALL_PROBUF_DATA_SIZE "1000"
+MEDIUM_PROBUF_DATA_SIZE "12000"
+LARGE_PROBUF_DATA_SIZE "76800"
+CRITICAL_REPROCESSING_PRODUCTS "0"
+CRITICAL_LIVE_PRODUCTS "0"
+SUPPRESS_LOGGING_OF_INPUT "0"
+SUPPRESS_LOGGING_OF_OUTPUT "0"
+TRANSACTION_BUCKET_SPANNING "0"
+GTMS_TASK_PRIORITY "16"
+
+GUARD_ACTIVE "0"
+GUARD_WAKEUP_INTERVAL "10"
+GUARD_TIMEOUT_LIVE_INTERVAL "15"
+GUARD_REOPEN_DEVICE_INTERVAL "60"
+GUARD_UDP_BASE_PORT "4100"
+GUARD_TASK_PRIORITY "14"
+
+DISK_BJF_ACTIVE "0"
+DISK_BJF_MANDATORY "0"
+DISK_WAKEUP_INTERVAL "10"
+DISK_MJF_PERCENT_FULL_ALARM "90"
+DISK_MJF_EXTENSION_SIZE_MB "10"
+DISK_CLOSE_INACTIVE_FILES_INTERVAL "300"
+DISK_CHECK_FOR_NEXT_MJF_START_TIME "12:00"
+DISK_CHECK_FOR_NEXT_MJF_INTERVAL "3600"
+DISK_WAIT_FOR_NEXT_MJF_AT_DAYEND "1"
+DISK_TASK_PRIORITY "12"
+
+NPLX_ACTIVE "0"
+NPLX_TIMEOUT_ACK_MILLISECONDS "400"
+NPLX_TIMEOUT_LIVE_INTERVAL "15"
+NPLX_REOPEN_DEVICE_INTERVAL "60"
+NPLX_WAKEUP_INTERVAL "10"
+NPLX_LOST_CONNECTION_RETRIES "2"
+NPLX_COMPRESSION_FILE ""
+NPLX_COMPRESSION_ACTIVE "0"
+NPLX_UDP_BASE_PORT "4200"
+NPLX_TASK_PRIORITY "10"
+NPLX_MAX_WACKS "2"
+
+OPRSRV_ENCRYPTION_ACTIVE "0"
+OPRSRV_UDP_BASE_PORT "4300"
+OPRSRV_TASK_PRIORITY "18"
+
+comment "gxvision products mode: 0- started only, 1- all"
+VISION_PRODUCTS "0"
+
+comment "Start of machine specific parameters"
+comment "Index 0 is Interprocessor LAN at all locations"
+comment "Index 1 is Access LAN at all locations"
+comment "Index 2 is COMM 1 LAN at primary location"
+comment "Index 3 is COMM 2 LAN at primary location"
+comment "Index 4 is COMM 1 LAN at backup location"
+comment "Index 5 is COMM 2 LAN at backup location"
+comment "Use 0.0.0.0 as a placeholder IP address"
+
+MACHINE_NAME "ibm457"
+ GTMS_IDN "1"
+ LOCATION_IDN "0"
+ GUARD_TTY_DEVICES ""
+ IP_ADDRESSES "0.0.0.0 10.253.168.57 0.0.0.0 0.0.0.0"
+ LAN_NAMES "Interprocessor Access Comm1 Comm2 BDC-Comm1 BDC-Comm2 SDC-Comm1 SDC-Comm2"
+ NPLX_LANS "1"
+ NPLX_PREFERED_LANS "0 0 0 0 0 0 0 0"
+ OPRSRV_LANS "1"
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+7:

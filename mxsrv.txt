@@ -1,0 +1,1001 @@
+login as: prosys
+prosys@ibm457's password:
+
+[ibm457::prosys]:/home/prosys
+1: ping ibm457
+PING ibm457 (10.253.168.57) 56(84) bytes of data.
+64 bytes from ibm457 (10.253.168.57): icmp_seq=1 ttl=64 time=0.017 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=2 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=3 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=4 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=5 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=6 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=7 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=8 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=9 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=10 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=11 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=12 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=13 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=14 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=15 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=16 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=17 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=18 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=19 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=20 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=21 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=22 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=23 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=24 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=25 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=26 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=27 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=28 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=29 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=30 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=31 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=32 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=33 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=34 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=35 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=36 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=37 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=38 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=39 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=40 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=41 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=42 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=43 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=44 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=45 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=46 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=47 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=48 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=49 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=50 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=51 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=52 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=53 ttl=64 time=0.040 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=54 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=55 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=56 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=57 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=58 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=59 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=60 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=61 ttl=64 time=0.047 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=62 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=63 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=64 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=65 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=66 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=67 ttl=64 time=0.045 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=68 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=69 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=70 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=71 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=72 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=73 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=74 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=75 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=76 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=77 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=78 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=79 ttl=64 time=0.085 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=80 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=81 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=82 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=83 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=84 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=85 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=86 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=87 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=88 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=89 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=90 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=91 ttl=64 time=0.035 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=92 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=93 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=94 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=95 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=96 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=97 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=98 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=99 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=100 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=101 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=102 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=103 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=104 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=105 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=106 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=107 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=108 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=109 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=110 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=111 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=112 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=113 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=114 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=115 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=116 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=117 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=118 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=119 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=120 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=121 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=122 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=123 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=124 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=125 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=126 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=127 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=128 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=129 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=130 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=131 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=132 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=133 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=134 ttl=64 time=0.039 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=135 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=136 ttl=64 time=0.040 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=137 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=138 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=139 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=140 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=141 ttl=64 time=0.036 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=142 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=143 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=144 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=145 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=146 ttl=64 time=0.034 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=147 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=148 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=149 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=150 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=151 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=152 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=153 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=154 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=155 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=156 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=157 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=158 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=159 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=160 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=161 ttl=64 time=0.018 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=162 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=163 ttl=64 time=0.042 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=164 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=165 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=166 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=167 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=168 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=169 ttl=64 time=0.024 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=170 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=171 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=172 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=173 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=174 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=175 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=176 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=177 ttl=64 time=0.037 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=178 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=179 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=180 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=181 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=182 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=183 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=184 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=185 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=186 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=187 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=188 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=189 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=190 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=191 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=192 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=193 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=194 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=195 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=196 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=197 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=198 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=199 ttl=64 time=0.048 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=200 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=201 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=202 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=203 ttl=64 time=0.038 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=204 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=205 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=206 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=207 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=208 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=209 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=210 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=211 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=212 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=213 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=214 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=215 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=216 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=217 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=218 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=219 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=220 ttl=64 time=0.085 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=221 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=222 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=223 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=224 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=225 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=226 ttl=64 time=0.051 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=227 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=228 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=229 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=230 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=231 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=232 ttl=64 time=0.022 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=233 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=234 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=235 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=236 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=237 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=238 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=239 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=240 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=241 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=242 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=243 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=244 ttl=64 time=0.035 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=245 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=246 ttl=64 time=0.031 ms
+^C
+--- ibm457 ping statistics ---
+246 packets transmitted, 246 received, 0% packet loss, time 245965ms
+rtt min/avg/max/mdev = 0.017/0.029/0.085/0.006 ms
+[ibm457::prosys]:/home/prosys
+2:
+[ibm457::prosys]:/home/prosys
+2: ping ibm457
+PING ibm457 (10.253.168.57) 56(84) bytes of data.
+64 bytes from ibm457 (10.253.168.57): icmp_seq=1 ttl=64 time=0.016 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=2 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=3 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=4 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=5 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=6 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=7 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=8 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=9 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=10 ttl=64 time=0.043 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=11 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=12 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=13 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=14 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=15 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=16 ttl=64 time=0.035 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=17 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=18 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=19 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=20 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=21 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=22 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=23 ttl=64 time=0.035 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=24 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=25 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=26 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=27 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=28 ttl=64 time=0.038 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=29 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=30 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=31 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=32 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=33 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=34 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=35 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=36 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=37 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=38 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=39 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=40 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=41 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=42 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=43 ttl=64 time=0.076 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=44 ttl=64 time=0.042 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=45 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=46 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=47 ttl=64 time=0.037 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=48 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=49 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=50 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=51 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=52 ttl=64 time=0.044 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=53 ttl=64 time=0.046 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=54 ttl=64 time=0.044 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=55 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=56 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=57 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=58 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=59 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=60 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=61 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=62 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=63 ttl=64 time=0.114 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=64 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=65 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=66 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=67 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=68 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=69 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=70 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=71 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=72 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=73 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=74 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=75 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=76 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=77 ttl=64 time=0.034 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=78 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=79 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=80 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=81 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=82 ttl=64 time=0.036 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=83 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=84 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=85 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=86 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=87 ttl=64 time=0.019 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=88 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=89 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=90 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=91 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=92 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=93 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=94 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=95 ttl=64 time=0.042 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=96 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=97 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=98 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=99 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=100 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=101 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=102 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=103 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=104 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=105 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=106 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=107 ttl=64 time=0.044 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=108 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=109 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=110 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=111 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=112 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=113 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=114 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=115 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=116 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=117 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=118 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=119 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=120 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=121 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=122 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=123 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=124 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=125 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=126 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=127 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=128 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=129 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=130 ttl=64 time=0.043 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=131 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=132 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=133 ttl=64 time=0.050 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=134 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=135 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=136 ttl=64 time=0.044 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=137 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=138 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=139 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=140 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=141 ttl=64 time=0.037 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=142 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=143 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=144 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=145 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=146 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=147 ttl=64 time=0.023 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=148 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=149 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=150 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=151 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=152 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=153 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=154 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=155 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=156 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=157 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=158 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=159 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=160 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=161 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=162 ttl=64 time=0.043 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=163 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=164 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=165 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=166 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=167 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=168 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=169 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=170 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=171 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=172 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=173 ttl=64 time=0.037 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=174 ttl=64 time=0.038 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=175 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=176 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=177 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=178 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=179 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=180 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=181 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=182 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=183 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=184 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=185 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=186 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=187 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=188 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=189 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=190 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=191 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=192 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=193 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=194 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=195 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=196 ttl=64 time=0.051 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=197 ttl=64 time=0.035 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=198 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=199 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=200 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=201 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=202 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=203 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=204 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=205 ttl=64 time=0.049 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=206 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=207 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=208 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=209 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=210 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=211 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=212 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=213 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=214 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=215 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=216 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=217 ttl=64 time=0.043 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=218 ttl=64 time=0.016 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=219 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=220 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=221 ttl=64 time=0.041 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=222 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=223 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=224 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=225 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=226 ttl=64 time=0.018 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=227 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=228 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=229 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=230 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=231 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=232 ttl=64 time=0.028 ms
+^C
+--- ibm457 ping statistics ---
+232 packets transmitted, 232 received, 0% packet loss, time 231653ms
+rtt min/avg/max/mdev = 0.016/0.030/0.114/0.008 ms
+[ibm457::prosys]:/home/prosys
+3: cd mxsrv
+ksh: cd: /home/prosys/mxsrv - No such file or directory
+[ibm457::prosys]:/home/prosys
+4: cd /oltp
+[ibm457::prosys]:/oltp
+5: cd mxsrv
+ksh: cd: /oltp/mxsrv - No such file or directory
+[ibm457::prosys]:/oltp
+6: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+cd
+m[ibm457:/oltp:prosys]:/oltp
+7: cd mxsrv
+/oltp/platform/mxsrv
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+8: ls -l
+total 20
+drwxrwx--- 2 prosys prosys 4096 Dec 16  2016 bin/
+drwxrwx--- 2 prosys prosys 4096 Jul 11 16:32 files/
+-r-xr-x--- 1 prosys prosys 1224 Aug 18  2016 prod_environment*
+-r-xr-x--- 1 prosys prosys 1757 Aug 18  2016 prod_install*
+drwxr-x--- 2 prosys prosys 4096 Sep 27  2016 public/
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+9: cd files
+/oltp/platform/mxsrv/files
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+10: ls
+gateway.msghdr   gateway.rpchdr   mxgate_prod_rpcs.out
+gateway.msgparm  gateway.rpcparm  mx_server.fil
+gateway.msgvec   golsrpc.sql      rpcgroup.dat
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+11: more mx_server.fil
+[CONTROL]
+    PRIM_NOTIFY_MODE = 0
+    START_MODE = AUTO
+    MAX_ES_REQUESTS = 100
+
+[TNI_CONFIG]
+    LOCAL_DOMAIN_NAME = ibm457
+    LISTENING_PORT = 53380
+
+[CLUSTERED_APP]
+    APP_NAME = esconnect
+    OLTP_UNSO_ROUTING = ALL_CLIENTS
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esms
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esrm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esps
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esolpm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esips
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esmm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = b2b
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esa
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = estegateway
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+12: go usec/bin
+
+Current projects:
+
+Project                 Branch                              Archive                     Project     Env  IPS
+Name                    Label                               Directory                   User        Lock db
+---------------         -----------------------             -----------------           --------    ---- --------
+oltp                    MOS_no_archves                      none                        prosys      n    ips_db
+integ                   MOS_no_archves                      none                        integ       n    integ_db
+
+
+Project USEC/BIN is unknown, or User locked from loading environment.
+Check definition in /usr/gtech/config/goproj.inc
+
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+13: ls
+chkpnt1.fil  gateway.msghdr   gateway.msgvec  gateway.rpcparm  mxgate_prod_rpcs.out  rpcgroup.dat
+chkpnt2.fil  gateway.msgparm  gateway.rpchdr  golsrpc.sql      mx_server.fil
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+14: cd usec/bin
+/oltp/prosys/usec/bin
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+15: ls
+app_data.fil         usec_application_dump_report*    usec_es_extract*          usec_pdfutil*             usec_serviceke
+file_cleanup.dat     usec_bootstrap*                  usec_file_cleanup*        usec_pmsrv*               usec_setup*
+group_DEFAULT.dat    usec.cfg                         usec_group_dump_report*   usec_prdtmir_rep*         usec_spy*
+group_NONE.dat       usec_compare_user_files*         usec_group_list_report*   usec_prgcfg_dump_report*  usec_test_lib*
+group_VIEW_ONLY.dat  usec_convert_appfile*            usec_group_mod_report*    usec_prgsts_dump_report*  usec_user_dump
+prod_kill*           usec_convert_passwd_dictionary*  usec_grpsec_dump_report*  usec_prog_config*         usec_user_list
+prod_start*          usec_dayprep*                    usec_lsr_sign_on_report*  usec_qrysrv*              usec_user_list
+prod_startover*      usec_dump_usrcom*                usec_mainpro*             usec_recreate_user_file*  usec_user_mod_
+prog_config.dat      usec_dump_usrcom_to_file*        usec_modify_pdf*          usec_rpc_inq*             usec_vision*
+qry_usec.mib         usec_endprep*                    usecpcf.fil               usec_secobj_dump_report*
+qry_usec.mtd         usec_errdef.dat                  usec_pdf_dump_report*     usec_secutil*
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+16:
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+16:
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+16:
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+16: ls *gate*
+ls: cannot access *gate*: No such file or directory
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+17: cd gtms/bin
+/oltp/platform/gtms/bin
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+18: ls
+adjtime_test*     gtms_errdef.dat  gxdualextract*  gxkillsys*    gxmjfutil*    gxpcfutil*    gxtime*         prod_kill*
+bounce_gxmjfmon*  gtmspcf.fil      gxdualinject*   gxmjfdump*    gxmjfxfer*    gxrunsys*     gxtmir*         prod_start*
+delglb*           gtms_qrysrv*     gxdumpgtms*     gxmjfmon*     gxmon*        gxserchk*     gxtrace*        prod_starto
+delshrmem*        gxcdc*           gxexec*         gxmjfprod*    gxnplxu*      gxsetup*      gxtrycomp*      pswdmgr*
+dumpsitecom*      gxdeinstall*     gxgencomp*      gxmjfsts*     gxoper*       gxstartcdc*   gxvision*       qry_gtms.mi
+errno*            gxdisk*          gxguard*        gxmjftomjf*   gxoprsrv*     gxstate*      kill_gxoprsrv*  qry_gtms.mt
+find_probuf*      gxdispcomp*      gxinstall*      gxmjftotape*  gxoprvision*  gxtapetomjf*  killsys*        resetmjfs*
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+19: more gtmspcf.fil
+comment "Created by GXPCFUTIL at MISSOURI LOTTERY on Aug 01 2016 at 13:41:23"
+
+GROUP_IDN "0"
+CYCLES_PER_SECOND "20"
+ENVIRONMENT "DEVELOPMENT"
+FILLGAP_INTERVAL "4"
+MAX_STOP_INTERVAL "4"
+LOCK_PAGES "0"
+LOST_CYCLES_THRESHOLD "20"
+SKIP_BAD_BUCKETS "0"
+SYNC_INTERVAL "10"
+TAKEOVER_MESSAGE_INTERVAL "5"
+UPDATE_MJF_HEADER_INTERVAL "300"
+WAIT_FOR_SPARE "0"
+MJF_SEAL_ALGO "3"
+NUMBER_OF_REGISTERED_TASKS "200"
+NUMBER_OF_SMALL_PROBUFS "30000"
+NUMBER_OF_MEDIUM_PROBUFS "15000"
+NUMBER_OF_LARGE_PROBUFS "1000"
+PERCENT_SMALL_PROBUFS_SUSPEND_REPROCESSING "60"
+PERCENT_MEDIUM_PROBUFS_SUSPEND_REPROCESSING "60"
+PERCENT_LARGE_PROBUFS_SUSPEND_REPROCESSING "60"
+PERCENT_SMALL_PROBUFS_SUSPEND_TERMINAL_INPUT "40"
+PERCENT_MEDIUM_PROBUFS_SUSPEND_TERMINAL_INPUT "40"
+PERCENT_LARGE_PROBUFS_SUSPEND_TERMINAL_INPUT "20"
+MAX_TERMINAL_MESSAGE_LENGTH "2048"
+SMALL_PROBUF_DATA_SIZE "1000"
+MEDIUM_PROBUF_DATA_SIZE "12000"
+LARGE_PROBUF_DATA_SIZE "76800"
+CRITICAL_REPROCESSING_PRODUCTS "0"
+CRITICAL_LIVE_PRODUCTS "0"
+SUPPRESS_LOGGING_OF_INPUT "0"
+SUPPRESS_LOGGING_OF_OUTPUT "0"
+TRANSACTION_BUCKET_SPANNING "0"
+GTMS_TASK_PRIORITY "16"
+
+GUARD_ACTIVE "0"
+GUARD_WAKEUP_INTERVAL "10"
+GUARD_TIMEOUT_LIVE_INTERVAL "15"
+GUARD_REOPEN_DEVICE_INTERVAL "60"
+GUARD_UDP_BASE_PORT "4100"
+GUARD_TASK_PRIORITY "14"
+
+DISK_BJF_ACTIVE "0"
+DISK_BJF_MANDATORY "0"
+DISK_WAKEUP_INTERVAL "10"
+DISK_MJF_PERCENT_FULL_ALARM "90"
+DISK_MJF_EXTENSION_SIZE_MB "10"
+DISK_CLOSE_INACTIVE_FILES_INTERVAL "300"
+DISK_CHECK_FOR_NEXT_MJF_START_TIME "12:00"
+DISK_CHECK_FOR_NEXT_MJF_INTERVAL "3600"
+DISK_WAIT_FOR_NEXT_MJF_AT_DAYEND "1"
+DISK_TASK_PRIORITY "12"
+
+NPLX_ACTIVE "0"
+NPLX_TIMEOUT_ACK_MILLISECONDS "400"
+NPLX_TIMEOUT_LIVE_INTERVAL "15"
+NPLX_REOPEN_DEVICE_INTERVAL "60"
+NPLX_WAKEUP_INTERVAL "10"
+NPLX_LOST_CONNECTION_RETRIES "2"
+NPLX_COMPRESSION_FILE ""
+NPLX_COMPRESSION_ACTIVE "0"
+NPLX_UDP_BASE_PORT "4200"
+NPLX_TASK_PRIORITY "10"
+NPLX_MAX_WACKS "2"
+
+OPRSRV_ENCRYPTION_ACTIVE "0"
+OPRSRV_UDP_BASE_PORT "4300"
+OPRSRV_TASK_PRIORITY "18"
+
+comment "gxvision products mode: 0- started only, 1- all"
+VISION_PRODUCTS "0"
+
+comment "Start of machine specific parameters"
+comment "Index 0 is Interprocessor LAN at all locations"
+comment "Index 1 is Access LAN at all locations"
+comment "Index 2 is COMM 1 LAN at primary location"
+comment "Index 3 is COMM 2 LAN at primary location"
+comment "Index 4 is COMM 1 LAN at backup location"
+comment "Index 5 is COMM 2 LAN at backup location"
+comment "Use 0.0.0.0 as a placeholder IP address"
+
+MACHINE_NAME "ibm457"
+ GTMS_IDN "1"
+ LOCATION_IDN "0"
+ GUARD_TTY_DEVICES ""
+ IP_ADDRESSES "0.0.0.0 10.253.168.57 0.0.0.0 0.0.0.0"
+ LAN_NAMES "Interprocessor Access Comm1 Comm2 BDC-Comm1 BDC-Comm2 SDC-Comm1 SDC-Comm2"
+ NPLX_LANS "1"
+ NPLX_PREFERED_LANS "0 0 0 0 0 0 0 0"
+ OPRSRV_LANS "1"
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+20: df
+Filesystem                              1K-blocks       Used  Available Use% Mounted on
+/dev/mapper/rootvg-rootlv                 5160576    1610712    3287720  33% /
+tmpfs                                     4030812          8    4030804   1% /dev/shm
+/dev/mapper/rootvg-audit_lv               2064208      68608    1890744   4% /audit
+/dev/sda1                                   99150      34916      59114  38% /boot
+/dev/mapper/data1_vg-data1_lv            72240456   22693644   45877696  34% /db2devices1
+/dev/mapper/rootvg-files_lv               3096336    1882788    1056264  65% /files
+/dev/mapper/rootvg-log_lv                 2064208      68628    1890724   4% /log
+/dev/mapper/rootvg-mjf_lv                 4128448     139256    3779480   4% /mjf
+/dev/mapper/rootvg-opt_lv                 4128448    1317100    2601636  34% /opt
+/dev/mapper/rootvg-tmp_lv                 2064208      68788    1890564   4% /tmp
+/dev/mapper/rootvg-usr_lv                 6192704    1646144    4231988  29% /usr
+/dev/mapper/rootvg-var_lv                 4128448     452444    3466292  12% /var
+wgnascl-02:/wgnascl_dev_rel/mo_release 4294967296 3168532512 1126434784  74% /mos_release
+wgnascl-02:/usrlocal/rhel6-x86_64        41943040    4422144   37520896  11% /usr/local
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+21: mxsrv/fies
+ksh: mxsrv/fies: not found
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+22: cd mxsrv
+/oltp/platform/mxsrv
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+23: files
+ksh: files: cannot execute - Is a directory
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+24: /files
+ksh: /files: cannot execute - Is a directory
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+25: ls
+bin/  files/  prod_environment*  prod_install*  public/
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+26: files/
+ksh: files/: cannot execute - Is a directory
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+27: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+
+[ibm457:/oltp:prosys]:/oltp
+28: cd mxsrv
+/oltp/platform/mxsrv
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+29: files
+ksh: files: cannot execute - Is a directory
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+30: cd mxsrv/files
+/oltp/platform/mxsrv/files
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+31: ls
+chkpnt1.fil     gateway.msgparm  gateway.rpcparm       mx_server.fil
+chkpnt2.fil     gateway.msgvec   golsrpc.sql           rpcgroup.dat
+gateway.msghdr  gateway.rpchdr   mxgate_prod_rpcs.out
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+32: mx_server.fil
+ksh: mx_server.fil: cannot execute - Permission denied
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+33: cat mx_server.fil
+[CONTROL]
+    PRIM_NOTIFY_MODE = 0
+    START_MODE = AUTO
+    MAX_ES_REQUESTS = 100
+
+[TNI_CONFIG]
+    LOCAL_DOMAIN_NAME = ibm457
+    LISTENING_PORT = 53380
+
+[CLUSTERED_APP]
+    APP_NAME = esconnect
+    OLTP_UNSO_ROUTING = ALL_CLIENTS
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esms
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esrm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esps
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esolpm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esips
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esmm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = b2b
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esa
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = estegateway
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+34:

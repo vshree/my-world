@@ -1,0 +1,751 @@
+login as: prosys
+prosys@ibm457's password:
+
+[ibm457::prosys]:/home/prosys
+1: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+g
+[ibm457:/oltp:prosys]:/oltp
+2: gxvision
+
+GXVISION 1.00 Copyright 1999 GTECH Corporation. All rights reserved.
+Error getting shared memory id for GXROUCOM {Fatal 255:00438}
+No such file or directory {errno:00002}
+Cannot map to GXROUCOM
+[ibm457:/oltp:prosys]:/oltp
+3: ping 0
+PING 0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.036 ms
+64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.026 ms
+64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.031 ms
+64 bytes from 127.0.0.1: icmp_seq=6 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=7 ttl=64 time=0.031 ms
+64 bytes from 127.0.0.1: icmp_seq=8 ttl=64 time=0.026 ms
+64 bytes from 127.0.0.1: icmp_seq=9 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=10 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=11 ttl=64 time=0.030 ms
+64 bytes from 127.0.0.1: icmp_seq=12 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=13 ttl=64 time=0.030 ms
+64 bytes from 127.0.0.1: icmp_seq=14 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=15 ttl=64 time=0.031 ms
+64 bytes from 127.0.0.1: icmp_seq=16 ttl=64 time=0.044 ms
+64 bytes from 127.0.0.1: icmp_seq=17 ttl=64 time=0.026 ms
+64 bytes from 127.0.0.1: icmp_seq=18 ttl=64 time=0.029 ms
+64 bytes from 127.0.0.1: icmp_seq=19 ttl=64 time=0.022 ms
+64 bytes from 127.0.0.1: icmp_seq=20 ttl=64 time=0.032 ms
+64 bytes from 127.0.0.1: icmp_seq=21 ttl=64 time=0.024 ms
+64 bytes from 127.0.0.1: icmp_seq=22 ttl=64 time=0.016 ms
+64 bytes from 127.0.0.1: icmp_seq=23 ttl=64 time=0.032 ms
+64 bytes from 127.0.0.1: icmp_seq=24 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=25 ttl=64 time=0.026 ms
+64 bytes from 127.0.0.1: icmp_seq=26 ttl=64 time=0.029 ms
+64 bytes from 127.0.0.1: icmp_seq=27 ttl=64 time=0.031 ms
+64 bytes from 127.0.0.1: icmp_seq=28 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=29 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=30 ttl=64 time=0.030 ms
+64 bytes from 127.0.0.1: icmp_seq=31 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=32 ttl=64 time=0.031 ms
+64 bytes from 127.0.0.1: icmp_seq=33 ttl=64 time=0.026 ms
+64 bytes from 127.0.0.1: icmp_seq=34 ttl=64 time=0.032 ms
+64 bytes from 127.0.0.1: icmp_seq=35 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=36 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=37 ttl=64 time=0.029 ms
+64 bytes from 127.0.0.1: icmp_seq=38 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=39 ttl=64 time=0.030 ms
+64 bytes from 127.0.0.1: icmp_seq=40 ttl=64 time=0.019 ms
+64 bytes from 127.0.0.1: icmp_seq=41 ttl=64 time=0.056 ms
+64 bytes from 127.0.0.1: icmp_seq=42 ttl=64 time=0.029 ms
+64 bytes from 127.0.0.1: icmp_seq=43 ttl=64 time=0.031 ms
+64 bytes from 127.0.0.1: icmp_seq=44 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=45 ttl=64 time=0.033 ms
+64 bytes from 127.0.0.1: icmp_seq=46 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=47 ttl=64 time=0.026 ms
+64 bytes from 127.0.0.1: icmp_seq=48 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=49 ttl=64 time=0.041 ms
+64 bytes from 127.0.0.1: icmp_seq=50 ttl=64 time=0.026 ms
+64 bytes from 127.0.0.1: icmp_seq=51 ttl=64 time=0.025 ms
+64 bytes from 127.0.0.1: icmp_seq=52 ttl=64 time=0.032 ms
+64 bytes from 127.0.0.1: icmp_seq=53 ttl=64 time=0.043 ms
+64 bytes from 127.0.0.1: icmp_seq=54 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=55 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=56 ttl=64 time=0.029 ms
+64 bytes from 127.0.0.1: icmp_seq=57 ttl=64 time=0.030 ms
+64 bytes from 127.0.0.1: icmp_seq=58 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=59 ttl=64 time=0.032 ms
+64 bytes from 127.0.0.1: icmp_seq=60 ttl=64 time=0.031 ms
+p64 bytes from 127.0.0.1: icmp_seq=61 ttl=64 time=0.030 ms
+64 bytes from 127.0.0.1: icmp_seq=62 ttl=64 time=0.038 ms
+64 bytes from 127.0.0.1: icmp_seq=63 ttl=64 time=0.032 ms
+64 bytes from 127.0.0.1: icmp_seq=64 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=65 ttl=64 time=0.029 ms
+64 bytes from 127.0.0.1: icmp_seq=66 ttl=64 time=0.030 ms
+64 bytes from 127.0.0.1: icmp_seq=67 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=68 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=69 ttl=64 time=0.029 ms
+ex64 bytes from 127.0.0.1: icmp_seq=70 ttl=64 time=0.030 ms
+it
+64 bytes from 127.0.0.1: icmp_seq=71 ttl=64 time=0.031 ms
+64 bytes from 127.0.0.1: icmp_seq=72 ttl=64 time=0.028 ms
+64 bytes from 127.0.0.1: icmp_seq=73 ttl=64 time=0.030 ms
+^C
+--- 0 ping statistics ---
+73 packets transmitted, 73 received, 0% packet loss, time 72596ms
+rtt min/avg/max/mdev = 0.016/0.029/0.056/0.007 ms
+[ibm457:/oltp:prosys]:/oltp
+4: ping ibm457
+PING ibm457 (10.253.168.57) 56(84) bytes of data.
+64 bytes from ibm457 (10.253.168.57): icmp_seq=1 ttl=64 time=0.016 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=2 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=3 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=4 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=5 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=6 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=7 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=8 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=9 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=10 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=11 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=12 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=13 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=14 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=15 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=16 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=17 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=18 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=19 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=20 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=21 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=22 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=23 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=24 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=25 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=26 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=27 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=28 ttl=64 time=0.032 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=29 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=30 ttl=64 time=0.025 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=31 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=32 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=33 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=34 ttl=64 time=0.033 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=35 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=36 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=37 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=38 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=39 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=40 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=41 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=42 ttl=64 time=0.031 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=43 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=44 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=45 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=46 ttl=64 time=0.027 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=47 ttl=64 time=0.030 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=48 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=49 ttl=64 time=0.026 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=50 ttl=64 time=0.028 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=51 ttl=64 time=0.029 ms
+64 bytes from ibm457 (10.253.168.57): icmp_seq=52 ttl=64 time=0.026 ms
+^C
+--- ibm457 ping statistics ---
+52 packets transmitted, 52 received, 0% packet loss, time 51340ms
+rtt min/avg/max/mdev = 0.016/0.027/0.033/0.007 ms
+[ibm457:/oltp:prosys]:/oltp
+5: gxopserv
+ksh: gxopserv: not found
+[ibm457:/oltp:prosys]:/oltp
+6: protasks
+Tasks in group 26
+USER       PID     ELAPSED THCNT %CPU COMMAND
+prosys   12911       06:41     1  0.0 /oltp/platform/elog/bin/elogfile
+prosys   12916       06:40     1  0.0 /oltp/platform/elog/bin/econsole
+prosys   12924       06:40     1  0.0 /oltp/platform/gtms/bin/gxoprsrv -L /usr/lib64:/oltp/prosys/pg             en/bin:/oltp/platform/plib/public:/oltp/proips/iinv/bin:/oltp/proips/ival/bin:/oltp/proips/idis/bin:
+prosys   14892       06:18     1  0.0 /oltp/platform/elog/bin/ewatch
+[ibm457:/oltp:prosys]:/oltp
+7: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+pro
+t[ibm457:/oltp:prosys]:/oltp
+8: protasks
+Tasks in group 26
+USER       PID     ELAPSED THCNT %CPU COMMAND
+prosys   12911       07:15     1  0.0 /oltp/platform/elog/bin/elogfile
+prosys   12916       07:14     1  0.0 /oltp/platform/elog/bin/econsole
+prosys   12924       07:14     1  0.0 /oltp/platform/gtms/bin/gxoprsrv -L /usr/lib64:/oltp/prosys/pg             en/bin:/oltp/platform/plib/public:/oltp/proips/iinv/bin:/oltp/proips/ival/bin:/oltp/proips/idis/bin:
+prosys   14892       06:52     1  0.0 /oltp/platform/elog/bin/ewatch
+[ibm457:/oltp:prosys]:/oltp
+9: gxopserv
+ksh: gxopserv: not found
+[ibm457:/oltp:prosys]:/oltp
+10: go gtms/bin
+
+Current projects:
+
+Project                 Branch                              Archive                     Project                  Env  IPS
+Name                    Label                               Directory                   User                     Lock db
+---------------         -----------------------             -----------------           --------                 ---- --------
+oltp                    MOS_no_archves                      none                        prosys                   n    ips_db
+integ                   MOS_no_archves                      none                        integ                    n    integ_db
+
+
+Project GTMS/BIN is unknown, or User locked from loading environment.
+Check definition in /usr/gtech/config/goproj.inc
+
+[ibm457:/oltp:prosys]:/oltp
+11: gxopserv
+ksh: gxopserv: not found
+[ibm457:/oltp:prosys]:/oltp
+12: gxoprsrv
+ksh: gxoprsrv: not found
+[ibm457:/oltp:prosys]:/oltp
+13: gxoprsrv
+ksh: gxoprsrv: not found
+[ibm457:/oltp:prosys]:/oltp
+14: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+
+[ibm457:/oltp:prosys]:/oltp
+15: ls -l
+total 732
+-r-xr-x---  1 prosys prosys   1672 Aug 18  2016 del_chkpts*
+-r-xr-x---  1 prosys prosys    551 Aug 18  2016 del_shrmem*
+-r-xr-x---  1 prosys prosys    651 Aug 18  2016 file_ctbackup*
+-r-xr-x---  1 prosys prosys   1009 Aug 18  2016 file_ctbackup_cfg*
+-r-xr-x---  1 prosys prosys    650 Aug 18  2016 file_ctrestore*
+-r-xr-x---  1 prosys prosys    878 Aug 18  2016 file_ctrestore_cfg*
+-rw-rw----  1 prosys prosys  24349 Dec 22  2016 globalconfig.xml
+drwxrwx--- 19 prosys prosys   4096 Dec 22  2016 interfaces/
+-rwxrwxrwx  1 oltp   prosys    854 Oct  6  2016 interface_xfer.sh*
+drwxrwx---  3 prosys prosys 593920 Jul 12 10:17 logdir/
+drwxrwx---  2 prosys prosys   4096 Mar 28 20:27 mbxdir/
+drwxr-x---  2 prosys prosys   4096 Dec 22  2016 oper/
+drwxrwx--- 15 prosys prosys   4096 Dec 22  2016 platform/
+drwxr-x--- 26 prosys prosys   4096 Dec 22  2016 progam/
+drwxr-x---  7 prosys prosys   4096 Dec 22  2016 proips/
+-r-xr-x---  1 prosys prosys    489 Aug 18  2016 proj_ctbackup*
+-r-xr-x---  1 prosys prosys    881 Aug 18  2016 proj_ctbackup_cfg*
+-r-xr-x---  1 prosys prosys    933 Aug 18  2016 proj_ctclean*
+-r-xr-x---  1 prosys prosys   1265 Aug 18  2016 proj_ctrestore*
+-r-xr-x---  1 prosys prosys   6650 Aug 18  2016 proj_environment*
+-r--r-----  1 prosys prosys   2281 Sep  7  2016 proj_environment.cache
+-r-xr-x---  1 prosys prosys   1742 Aug 18  2016 proj_install*
+drwxr-x--- 18 prosys prosys   4096 Dec 22  2016 prosys/
+-rw-rw----  1 prosys prosys     22 Aug  1  2016 rsdb.interfaces
+drwxrwx--x  2 prosys prosys  20480 Mar 28 21:32 shrmem/
+-rw-rw----  1 prosys prosys   6711 Aug 18  2016 system.config
+drwxr-x---  4 prosys prosys   4096 Mar 10 09:17 util/
+[ibm457:/oltp:prosys]:/oltp
+16: cd gtms/bin
+/oltp/platform/gtms/bin
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+17: cd oltp
+ksh: cd: /oltp/platform/gtms/bin/oltp - No such file or directory
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+18: ls -l
+total 9848
+-r-xr-x--- 1 prosys prosys 131866 Sep 27  2016 adjtime_test*
+-r-xr-x--- 1 prosys prosys   2999 Aug 18  2016 bounce_gxmjfmon*
+-r-xr-x--- 1 prosys prosys  92836 Sep 27  2016 delglb*
+-r-sr-x--- 1 root   prosys  29187 Sep 27  2016 delshrmem*
+-r-xr-x--- 1 prosys prosys  38365 Sep 27  2016 dumpsitecom*
+-r-xr-x--- 1 prosys prosys   8503 Sep 27  2016 errno*
+-r-xr-x--- 1 prosys prosys 137780 Sep 27  2016 find_probuf*
+-r--r----- 1 prosys prosys  43679 Aug 18  2016 gtms_errdef.dat
+-rw-rw---- 1 prosys prosys   2743 Dec 14  2016 gtmspcf.fil
+-r-xr-x--- 1 prosys prosys 619542 Sep 27  2016 gtms_qrysrv*
+-r-xr-x--- 1 prosys prosys 121979 Sep 27  2016 gxcdc*
+-r-xr-x--- 1 prosys prosys  81285 Sep 27  2016 gxdeinstall*
+-r-sr-x--- 1 root   prosys 479077 Sep 27  2016 gxdisk*
+-r-xr-x--- 1 prosys prosys 106109 Sep 27  2016 gxdispcomp*
+-r-xr-x--- 1 prosys prosys 136169 Sep 27  2016 gxdualextract*
+-r-xr-x--- 1 prosys prosys 221706 Sep 27  2016 gxdualinject*
+-r-xr-x--- 1 prosys prosys 472378 Sep 27  2016 gxdumpgtms*
+-r-sr-x--- 1 root   prosys 782873 Sep 27  2016 gxexec*
+-r-xr-x--- 1 prosys prosys 163005 Sep 27  2016 gxgencomp*
+-r-sr-x--- 1 root   prosys 348945 Sep 27  2016 gxguard*
+-r-xr-x--- 1 prosys prosys  31589 Sep 27  2016 gxinstall*
+-r-xr-x--- 1 prosys prosys  76025 Sep 27  2016 gxkillsys*
+-r-xr-x--- 1 prosys prosys 144046 Sep 27  2016 gxmjfdump*
+-r-xr-x--- 1 prosys prosys 310727 Sep 27  2016 gxmjfmon*
+-r-xr-x--- 1 prosys prosys 215874 Sep 27  2016 gxmjfprod*
+-r-xr-x--- 1 prosys prosys 142819 Sep 27  2016 gxmjfsts*
+-r-xr-x--- 1 prosys prosys 156088 Sep 27  2016 gxmjftomjf*
+-r-xr-x--- 1 prosys prosys 191651 Sep 27  2016 gxmjftotape*
+-r-xr-x--- 1 prosys prosys 273069 Sep 27  2016 gxmjfutil*
+-r-xr-x--- 1 prosys prosys 146829 Sep 27  2016 gxmjfxfer*
+-r-xr-x--- 1 prosys prosys 139548 Sep 27  2016 gxmon*
+-r-sr-x--- 1 root   prosys 420646 Sep 27  2016 gxnplxu*
+-r-xr-x--- 1 prosys prosys 132204 Sep 27  2016 gxoper*
+-r-sr-x--- 1 root   prosys 539804 Sep 27  2016 gxoprsrv*
+-r-xr-x--- 1 prosys prosys 142964 Sep 27  2016 gxoprvision*
+-r-xr-x--- 1 prosys prosys 154649 Sep 27  2016 gxpcfutil*
+-r-xr-x--- 1 prosys prosys 206851 Sep 27  2016 gxrunsys*
+-r-xr-x--- 1 prosys prosys  97094 Sep 27  2016 gxserchk*
+-r-xr-x--- 1 prosys prosys 233851 Sep 27  2016 gxsetup*
+-r-xr-x--- 1 prosys prosys  95438 Sep 27  2016 gxstartcdc*
+-r-xr-x--- 1 prosys prosys  88085 Sep 27  2016 gxstate*
+-r-xr-x--- 1 prosys prosys 142902 Sep 27  2016 gxtapetomjf*
+-r-xr-x--- 1 prosys prosys  87964 Sep 27  2016 gxtime*
+-r-xr-x--- 1 prosys prosys 198137 Sep 27  2016 gxtmir*
+-r-xr-x--- 1 prosys prosys  99150 Sep 27  2016 gxtrace*
+-r-xr-x--- 1 prosys prosys 171260 Sep 27  2016 gxtrycomp*
+-r-xr-x--- 1 prosys prosys 638566 Sep 27  2016 gxvision*
+-r-xr-x--- 1 prosys prosys    194 Aug 18  2016 kill_gxoprsrv*
+-r-xr-x--- 1 prosys prosys   1372 Aug 18  2016 killsys*
+-r-xr-x--- 1 prosys prosys    243 Aug 18  2016 prod_kill*
+-r-xr-x--- 1 prosys prosys   1447 Aug 18  2016 prod_start*
+-r-xr-x--- 1 prosys prosys   1882 Aug 18  2016 prod_startover*
+-r-xr-x--- 1 prosys prosys 324522 Sep 27  2016 pswdmgr*
+-r--r----- 1 prosys prosys   6147 Sep 27  2016 qry_gtms.mib
+-r--r----- 1 prosys prosys   6467 Sep 27  2016 qry_gtms.mtd
+-r-xr-x--- 1 prosys prosys 114487 Sep 27  2016 resetmjfs*
+-r-xr-x--- 1 prosys prosys    629 Aug 18  2016 run_gxoprsrv*
+-r-xr-x--- 1 prosys prosys  32578 Sep 27  2016 sizes*
+-r-xr-x--- 1 prosys prosys 168337 Sep 27  2016 spy*
+-r-xr-x--- 1 prosys prosys    105 Aug 18  2016 startover_prod*
+-r-xr-x--- 1 prosys prosys    112 Aug 18  2016 start_prosys*
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+19: sudo su
+pro[sudo] password for prosys:
+[root@ibm457 bin]# ls -l
+total 9848
+-r-xr-x--- 1 prosys prosys 131866 Sep 27  2016 adjtime_test
+-r-xr-x--- 1 prosys prosys   2999 Aug 18  2016 bounce_gxmjfmon
+-r-xr-x--- 1 prosys prosys  92836 Sep 27  2016 delglb
+-r-sr-x--- 1 root   prosys  29187 Sep 27  2016 delshrmem
+-r-xr-x--- 1 prosys prosys  38365 Sep 27  2016 dumpsitecom
+-r-xr-x--- 1 prosys prosys   8503 Sep 27  2016 errno
+-r-xr-x--- 1 prosys prosys 137780 Sep 27  2016 find_probuf
+-r--r----- 1 prosys prosys  43679 Aug 18  2016 gtms_errdef.dat
+-rw-rw---- 1 prosys prosys   2743 Dec 14  2016 gtmspcf.fil
+-r-xr-x--- 1 prosys prosys 619542 Sep 27  2016 gtms_qrysrv
+-r-xr-x--- 1 prosys prosys 121979 Sep 27  2016 gxcdc
+-r-xr-x--- 1 prosys prosys  81285 Sep 27  2016 gxdeinstall
+-r-sr-x--- 1 root   prosys 479077 Sep 27  2016 gxdisk
+-r-xr-x--- 1 prosys prosys 106109 Sep 27  2016 gxdispcomp
+-r-xr-x--- 1 prosys prosys 136169 Sep 27  2016 gxdualextract
+-r-xr-x--- 1 prosys prosys 221706 Sep 27  2016 gxdualinject
+-r-xr-x--- 1 prosys prosys 472378 Sep 27  2016 gxdumpgtms
+-r-sr-x--- 1 root   prosys 782873 Sep 27  2016 gxexec
+-r-xr-x--- 1 prosys prosys 163005 Sep 27  2016 gxgencomp
+-r-sr-x--- 1 root   prosys 348945 Sep 27  2016 gxguard
+-r-xr-x--- 1 prosys prosys  31589 Sep 27  2016 gxinstall
+-r-xr-x--- 1 prosys prosys  76025 Sep 27  2016 gxkillsys
+-r-xr-x--- 1 prosys prosys 144046 Sep 27  2016 gxmjfdump
+-r-xr-x--- 1 prosys prosys 310727 Sep 27  2016 gxmjfmon
+-r-xr-x--- 1 prosys prosys 215874 Sep 27  2016 gxmjfprod
+-r-xr-x--- 1 prosys prosys 142819 Sep 27  2016 gxmjfsts
+-r-xr-x--- 1 prosys prosys 156088 Sep 27  2016 gxmjftomjf
+-r-xr-x--- 1 prosys prosys 191651 Sep 27  2016 gxmjftotape
+-r-xr-x--- 1 prosys prosys 273069 Sep 27  2016 gxmjfutil
+-r-xr-x--- 1 prosys prosys 146829 Sep 27  2016 gxmjfxfer
+-r-xr-x--- 1 prosys prosys 139548 Sep 27  2016 gxmon
+-r-sr-x--- 1 root   prosys 420646 Sep 27  2016 gxnplxu
+-r-xr-x--- 1 prosys prosys 132204 Sep 27  2016 gxoper
+-r-sr-x--- 1 root   prosys 539804 Sep 27  2016 gxoprsrv
+-r-xr-x--- 1 prosys prosys 142964 Sep 27  2016 gxoprvision
+-r-xr-x--- 1 prosys prosys 154649 Sep 27  2016 gxpcfutil
+-r-xr-x--- 1 prosys prosys 206851 Sep 27  2016 gxrunsys
+-r-xr-x--- 1 prosys prosys  97094 Sep 27  2016 gxserchk
+-r-xr-x--- 1 prosys prosys 233851 Sep 27  2016 gxsetup
+-r-xr-x--- 1 prosys prosys  95438 Sep 27  2016 gxstartcdc
+-r-xr-x--- 1 prosys prosys  88085 Sep 27  2016 gxstate
+-r-xr-x--- 1 prosys prosys 142902 Sep 27  2016 gxtapetomjf
+-r-xr-x--- 1 prosys prosys  87964 Sep 27  2016 gxtime
+-r-xr-x--- 1 prosys prosys 198137 Sep 27  2016 gxtmir
+-r-xr-x--- 1 prosys prosys  99150 Sep 27  2016 gxtrace
+-r-xr-x--- 1 prosys prosys 171260 Sep 27  2016 gxtrycomp
+-r-xr-x--- 1 prosys prosys 638566 Sep 27  2016 gxvision
+-r-xr-x--- 1 prosys prosys    194 Aug 18  2016 kill_gxoprsrv
+-r-xr-x--- 1 prosys prosys   1372 Aug 18  2016 killsys
+-r-xr-x--- 1 prosys prosys    243 Aug 18  2016 prod_kill
+-r-xr-x--- 1 prosys prosys   1447 Aug 18  2016 prod_start
+-r-xr-x--- 1 prosys prosys   1882 Aug 18  2016 prod_startover
+-r-xr-x--- 1 prosys prosys 324522 Sep 27  2016 pswdmgr
+-r--r----- 1 prosys prosys   6147 Sep 27  2016 qry_gtms.mib
+-r--r----- 1 prosys prosys   6467 Sep 27  2016 qry_gtms.mtd
+-r-xr-x--- 1 prosys prosys 114487 Sep 27  2016 resetmjfs
+-r-xr-x--- 1 prosys prosys    629 Aug 18  2016 run_gxoprsrv
+-r-xr-x--- 1 prosys prosys  32578 Sep 27  2016 sizes
+-r-xr-x--- 1 prosys prosys 168337 Sep 27  2016 spy
+-r-xr-x--- 1 prosys prosys    105 Aug 18  2016 startover_prod
+-r-xr-x--- 1 prosys prosys    112 Aug 18  2016 start_prosys
+[root@ibm457 bin]# exit
+exit
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+20: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+sudo
+ [ibm457:/oltp:prosys]:/oltp
+21: sudo su
+[sudo] password for prosys:
+[root@ibm457 oltp]# ls -l
+total 732
+-r-xr-x---  1 prosys prosys   1672 Aug 18  2016 del_chkpts
+-r-xr-x---  1 prosys prosys    551 Aug 18  2016 del_shrmem
+-r-xr-x---  1 prosys prosys    651 Aug 18  2016 file_ctbackup
+-r-xr-x---  1 prosys prosys   1009 Aug 18  2016 file_ctbackup_cfg
+-r-xr-x---  1 prosys prosys    650 Aug 18  2016 file_ctrestore
+-r-xr-x---  1 prosys prosys    878 Aug 18  2016 file_ctrestore_cfg
+-rw-rw----  1 prosys prosys  24349 Dec 22  2016 globalconfig.xml
+drwxrwx--- 19 prosys prosys   4096 Dec 22  2016 interfaces
+-rwxrwxrwx  1 oltp   prosys    854 Oct  6  2016 interface_xfer.sh
+drwxrwx---  3 prosys prosys 593920 Jul 12 10:17 logdir
+drwxrwx---  2 prosys prosys   4096 Mar 28 20:27 mbxdir
+drwxr-x---  2 prosys prosys   4096 Dec 22  2016 oper
+drwxrwx--- 15 prosys prosys   4096 Dec 22  2016 platform
+drwxr-x--- 26 prosys prosys   4096 Dec 22  2016 progam
+drwxr-x---  7 prosys prosys   4096 Dec 22  2016 proips
+-r-xr-x---  1 prosys prosys    489 Aug 18  2016 proj_ctbackup
+-r-xr-x---  1 prosys prosys    881 Aug 18  2016 proj_ctbackup_cfg
+-r-xr-x---  1 prosys prosys    933 Aug 18  2016 proj_ctclean
+-r-xr-x---  1 prosys prosys   1265 Aug 18  2016 proj_ctrestore
+-r-xr-x---  1 prosys prosys   6650 Aug 18  2016 proj_environment
+-r--r-----  1 prosys prosys   2281 Sep  7  2016 proj_environment.cache
+-r-xr-x---  1 prosys prosys   1742 Aug 18  2016 proj_install
+drwxr-x--- 18 prosys prosys   4096 Dec 22  2016 prosys
+-rw-rw----  1 prosys prosys     22 Aug  1  2016 rsdb.interfaces
+drwxrwx--x  2 prosys prosys  20480 Mar 28 21:32 shrmem
+-rw-rw----  1 prosys prosys   6711 Aug 18  2016 system.config
+drwxr-x---  4 prosys prosys   4096 Mar 10 09:17 util
+[root@ibm457 oltp]# pwd
+/db2devices1/d2/oltp
+[root@ibm457 oltp]# cd platform
+[root@ibm457 platform]# ls -l
+total 80
+drwxr-xr-x 4 root   root    4096 Dec 16  2016 chkp
+drwxr-xr-x 5 root   root    4096 Dec 16  2016 elog
+drwxr-xr-x 4 root   root    4096 Dec 16  2016 gdb
+drwxr-xr-x 6 root   root    4096 Dec 16  2016 gtms
+drwxr-xr-x 4 root   root    4096 Dec 16  2016 icslog
+drwxr-xr-x 5 root   root    4096 Dec 16  2016 mxsrv
+drwxr-xr-x 3 root   root    4096 Dec 16  2016 pbas
+-r-xr-x--- 1 prosys prosys 19031 Sep 27  2016 platform_about
+-r-xr-x--- 1 prosys prosys  2082 Aug 18  2016 platform_environment
+-r-xr-x--- 1 prosys prosys   624 Aug 18  2016 platform_install
+drwxr-xr-x 4 root   root    4096 Dec 16  2016 plib
+drwxr-xr-x 3 root   root    4096 Dec 16  2016 plog
+drwxr-x--- 2 prosys prosys  4096 Sep 27  2016 public
+drwxr-xr-x 7 root   root    4096 Dec 16  2016 repc
+drwxr-xr-x 4 root   root    4096 Dec 16  2016 snmp
+drwxr-xr-x 5 root   root    4096 Dec 16  2016 symn
+[root@ibm457 platform]# cd ..
+[root@ibm457 oltp]# cd progam
+[root@ibm457 progam]# ls -l
+total 96
+drwxr-xr-x 5 root root 4096 Mar 10 09:17 csh5
+drwxr-xr-x 5 root root 4096 Mar 10 09:18 escc
+drwxr-xr-x 5 root root 4096 Mar 10 09:17 espc
+drwxr-xr-x 5 root root 4096 Mar 10 09:16 keno
+drwxr-xr-x 5 root root 4096 Mar 10 09:17 life
+drwxr-xr-x 5 root root 4096 Mar 10 09:16 loto
+drwxr-xr-x 3 root root 4096 Dec 16  2016 ltmp
+drwxr-xr-x 5 root root 4096 Mar 10 09:17 mega
+drwxr-xr-x 3 root root 4096 Dec 16  2016 padn
+drwxr-xr-x 5 root root 4096 Mar 10 09:16 pck3
+drwxr-xr-x 5 root root 4096 Mar 10 09:16 pck4
+drwxr-xr-x 3 root root 4096 Dec 16  2016 pgam
+drwxr-xr-x 3 root root 4096 Dec 16  2016 piop
+drwxr-xr-x 3 root root 4096 Dec 16  2016 pkno
+drwxr-xr-x 3 root root 4096 Dec 16  2016 plto
+drwxr-xr-x 3 root root 4096 Dec 16  2016 pnbr
+drwxr-xr-x 3 root root 4096 Dec 16  2016 praf
+drwxr-xr-x 5 root root 4096 Mar 10 09:18 prmo
+drwxr-xr-x 3 root root 4096 Dec 16  2016 pvic
+drwxr-xr-x 5 root root 4096 Mar 10 09:16 pwrb
+drwxr-xr-x 5 root root 4096 Mar 10 09:16 rafl
+drwxr-xr-x 5 root root 4096 Mar 10 09:17 trpl
+drwxr-xr-x 5 root root 4096 Mar 10 09:16 wdog
+drwxr-xr-x 5 root root 4096 Mar 10 09:17 xtra
+[root@ibm457 progam]# cd ..
+[root@ibm457 oltp]# cd proips
+[root@ibm457 proips]# ls -l
+total 20
+drwxr-xr-x 6 root root 4096 Mar 10 09:17 idis
+drwxr-xr-x 6 root root 4096 Mar 10 09:16 iinv
+drwxr-xr-x 6 root root 4096 Mar 10 09:17 isbt
+drwxr-xr-x 7 root root 4096 Mar 10 09:17 ival
+drwxr-xr-x 4 root root 4096 Mar 10 09:16 pips
+[root@ibm457 proips]#

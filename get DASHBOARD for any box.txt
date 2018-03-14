@@ -1,0 +1,575 @@
+login as: prosys
+prosys@ibm457's password:
+
+6: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+cd
+m[ibm457:/oltp:prosys]:/oltp
+7: cd mxsrv
+/oltp/platform/mxsrv
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+8: ls -l
+total 20
+drwxrwx--- 2 prosys prosys 4096 Dec 16  2016 bin/
+drwxrwx--- 2 prosys prosys 4096 Jul 11 16:32 files/
+-r-xr-x--- 1 prosys prosys 1224 Aug 18  2016 prod_environment*
+-r-xr-x--- 1 prosys prosys 1757 Aug 18  2016 prod_install*
+drwxr-x--- 2 prosys prosys 4096 Sep 27  2016 public/
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+9: cd files
+/oltp/platform/mxsrv/files
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+10: ls
+gateway.msghdr   gateway.rpchdr   mxgate_prod_rpcs.out
+gateway.msgparm  gateway.rpcparm  mx_server.fil
+gateway.msgvec   golsrpc.sql      rpcgroup.dat
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+11: more mx_server.fil
+[CONTROL]
+    PRIM_NOTIFY_MODE = 0
+    START_MODE = AUTO
+    MAX_ES_REQUESTS = 100
+
+[TNI_CONFIG]
+    LOCAL_DOMAIN_NAME = ibm457
+    LISTENING_PORT = 53380
+
+[CLUSTERED_APP]
+    APP_NAME = esconnect
+    OLTP_UNSO_ROUTING = ALL_CLIENTS
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esms
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esrm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esps
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esolpm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esips
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esmm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = b2b
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esa
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = estegateway
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+12: go usec/bin
+
+Current projects:
+
+Project                 Branch                              Archive                     Project     Env  IPS
+Name                    Label                               Directory                   User        Lock db
+---------------         -----------------------             -----------------           --------    ---- --------
+oltp                    MOS_no_archves                      none                        prosys      n    ips_db
+integ                   MOS_no_archves                      none                        integ       n    integ_db
+
+
+Project USEC/BIN is unknown, or User locked from loading environment.
+Check definition in /usr/gtech/config/goproj.inc
+
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+13: ls
+chkpnt1.fil  gateway.msghdr   gateway.msgvec  gateway.rpcparm  mxgate_prod_rpcs.out  rpcgroup.dat
+chkpnt2.fil  gateway.msgparm  gateway.rpchdr  golsrpc.sql      mx_server.fil
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+14: cd usec/bin
+/oltp/prosys/usec/bin
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+15: ls
+app_data.fil         usec_application_dump_report*    usec_es_extract*          usec_pdfutil*             usec_servicekey_report*
+file_cleanup.dat     usec_bootstrap*                  usec_file_cleanup*        usec_pmsrv*               usec_setup*
+group_DEFAULT.dat    usec.cfg                         usec_group_dump_report*   usec_prdtmir_rep*         usec_spy*
+group_NONE.dat       usec_compare_user_files*         usec_group_list_report*   usec_prgcfg_dump_report*  usec_test_lib*
+group_VIEW_ONLY.dat  usec_convert_appfile*            usec_group_mod_report*    usec_prgsts_dump_report*  usec_user_dump_report*
+prod_kill*           usec_convert_passwd_dictionary*  usec_grpsec_dump_report*  usec_prog_config*         usec_user_list_dump_csv*
+prod_start*          usec_dayprep*                    usec_lsr_sign_on_report*  usec_qrysrv*              usec_user_list_report*
+prod_startover*      usec_dump_usrcom*                usec_mainpro*             usec_recreate_user_file*  usec_user_mod_report*
+prog_config.dat      usec_dump_usrcom_to_file*        usec_modify_pdf*          usec_rpc_inq*             usec_vision*
+qry_usec.mib         usec_endprep*                    usecpcf.fil               usec_secobj_dump_report*
+qry_usec.mtd         usec_errdef.dat                  usec_pdf_dump_report*     usec_secutil*
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+16:
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+16:
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+16:
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+16: ls *gate*
+ls: cannot access *gate*: No such file or directory
+[ibm457:/oltp:prosys]:/oltp/prosys/usec/bin
+17: cd gtms/bin
+/oltp/platform/gtms/bin
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+18: ls
+adjtime_test*     gtms_errdef.dat  gxdualextract*  gxkillsys*    gxmjfutil*    gxpcfutil*    gxtime*         prod_kill*       run_gxoprsrv*
+bounce_gxmjfmon*  gtmspcf.fil      gxdualinject*   gxmjfdump*    gxmjfxfer*    gxrunsys*     gxtmir*         prod_start*      sizes*
+delglb*           gtms_qrysrv*     gxdumpgtms*     gxmjfmon*     gxmon*        gxserchk*     gxtrace*        prod_startover*  spy*
+delshrmem*        gxcdc*           gxexec*         gxmjfprod*    gxnplxu*      gxsetup*      gxtrycomp*      pswdmgr*         startover_prod*
+dumpsitecom*      gxdeinstall*     gxgencomp*      gxmjfsts*     gxoper*       gxstartcdc*   gxvision*       qry_gtms.mib     start_prosys*
+errno*            gxdisk*          gxguard*        gxmjftomjf*   gxoprsrv*     gxstate*      kill_gxoprsrv*  qry_gtms.mtd
+find_probuf*      gxdispcomp*      gxinstall*      gxmjftotape*  gxoprvision*  gxtapetomjf*  killsys*        resetmjfs*
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+19: more gtmspcf.fil
+comment "Created by GXPCFUTIL at MISSOURI LOTTERY on Aug 01 2016 at 13:41:23"
+
+GROUP_IDN "0"
+CYCLES_PER_SECOND "20"
+ENVIRONMENT "DEVELOPMENT"
+FILLGAP_INTERVAL "4"
+MAX_STOP_INTERVAL "4"
+LOCK_PAGES "0"
+LOST_CYCLES_THRESHOLD "20"
+SKIP_BAD_BUCKETS "0"
+SYNC_INTERVAL "10"
+TAKEOVER_MESSAGE_INTERVAL "5"
+UPDATE_MJF_HEADER_INTERVAL "300"
+WAIT_FOR_SPARE "0"
+MJF_SEAL_ALGO "3"
+NUMBER_OF_REGISTERED_TASKS "200"
+NUMBER_OF_SMALL_PROBUFS "30000"
+NUMBER_OF_MEDIUM_PROBUFS "15000"
+NUMBER_OF_LARGE_PROBUFS "1000"
+PERCENT_SMALL_PROBUFS_SUSPEND_REPROCESSING "60"
+PERCENT_MEDIUM_PROBUFS_SUSPEND_REPROCESSING "60"
+PERCENT_LARGE_PROBUFS_SUSPEND_REPROCESSING "60"
+PERCENT_SMALL_PROBUFS_SUSPEND_TERMINAL_INPUT "40"
+PERCENT_MEDIUM_PROBUFS_SUSPEND_TERMINAL_INPUT "40"
+PERCENT_LARGE_PROBUFS_SUSPEND_TERMINAL_INPUT "20"
+MAX_TERMINAL_MESSAGE_LENGTH "2048"
+SMALL_PROBUF_DATA_SIZE "1000"
+MEDIUM_PROBUF_DATA_SIZE "12000"
+LARGE_PROBUF_DATA_SIZE "76800"
+CRITICAL_REPROCESSING_PRODUCTS "0"
+CRITICAL_LIVE_PRODUCTS "0"
+SUPPRESS_LOGGING_OF_INPUT "0"
+SUPPRESS_LOGGING_OF_OUTPUT "0"
+TRANSACTION_BUCKET_SPANNING "0"
+GTMS_TASK_PRIORITY "16"
+
+GUARD_ACTIVE "0"
+GUARD_WAKEUP_INTERVAL "10"
+GUARD_TIMEOUT_LIVE_INTERVAL "15"
+GUARD_REOPEN_DEVICE_INTERVAL "60"
+GUARD_UDP_BASE_PORT "4100"
+GUARD_TASK_PRIORITY "14"
+
+DISK_BJF_ACTIVE "0"
+DISK_BJF_MANDATORY "0"
+DISK_WAKEUP_INTERVAL "10"
+DISK_MJF_PERCENT_FULL_ALARM "90"
+DISK_MJF_EXTENSION_SIZE_MB "10"
+DISK_CLOSE_INACTIVE_FILES_INTERVAL "300"
+DISK_CHECK_FOR_NEXT_MJF_START_TIME "12:00"
+DISK_CHECK_FOR_NEXT_MJF_INTERVAL "3600"
+DISK_WAIT_FOR_NEXT_MJF_AT_DAYEND "1"
+DISK_TASK_PRIORITY "12"
+
+NPLX_ACTIVE "0"
+NPLX_TIMEOUT_ACK_MILLISECONDS "400"
+NPLX_TIMEOUT_LIVE_INTERVAL "15"
+NPLX_REOPEN_DEVICE_INTERVAL "60"
+NPLX_WAKEUP_INTERVAL "10"
+NPLX_LOST_CONNECTION_RETRIES "2"
+NPLX_COMPRESSION_FILE ""
+NPLX_COMPRESSION_ACTIVE "0"
+NPLX_UDP_BASE_PORT "4200"
+NPLX_TASK_PRIORITY "10"
+NPLX_MAX_WACKS "2"
+
+OPRSRV_ENCRYPTION_ACTIVE "0"
+OPRSRV_UDP_BASE_PORT "4300"
+OPRSRV_TASK_PRIORITY "18"
+
+comment "gxvision products mode: 0- started only, 1- all"
+VISION_PRODUCTS "0"
+
+comment "Start of machine specific parameters"
+comment "Index 0 is Interprocessor LAN at all locations"
+comment "Index 1 is Access LAN at all locations"
+comment "Index 2 is COMM 1 LAN at primary location"
+comment "Index 3 is COMM 2 LAN at primary location"
+comment "Index 4 is COMM 1 LAN at backup location"
+comment "Index 5 is COMM 2 LAN at backup location"
+comment "Use 0.0.0.0 as a placeholder IP address"
+
+MACHINE_NAME "ibm457"
+ GTMS_IDN "1"
+ LOCATION_IDN "0"
+ GUARD_TTY_DEVICES ""
+ IP_ADDRESSES "0.0.0.0 10.253.168.57 0.0.0.0 0.0.0.0"
+ LAN_NAMES "Interprocessor Access Comm1 Comm2 BDC-Comm1 BDC-Comm2 SDC-Comm1 SDC-Comm2"
+ NPLX_LANS "1"
+ NPLX_PREFERED_LANS "0 0 0 0 0 0 0 0"
+ OPRSRV_LANS "1"
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+20: df
+Filesystem                              1K-blocks       Used  Available Use% Mounted on
+/dev/mapper/rootvg-rootlv                 5160576    1610712    3287720  33% /
+tmpfs                                     4030812          8    4030804   1% /dev/shm
+/dev/mapper/rootvg-audit_lv               2064208      68608    1890744   4% /audit
+/dev/sda1                                   99150      34916      59114  38% /boot
+/dev/mapper/data1_vg-data1_lv            72240456   22693644   45877696  34% /db2devices1
+/dev/mapper/rootvg-files_lv               3096336    1882788    1056264  65% /files
+/dev/mapper/rootvg-log_lv                 2064208      68628    1890724   4% /log
+/dev/mapper/rootvg-mjf_lv                 4128448     139256    3779480   4% /mjf
+/dev/mapper/rootvg-opt_lv                 4128448    1317100    2601636  34% /opt
+/dev/mapper/rootvg-tmp_lv                 2064208      68788    1890564   4% /tmp
+/dev/mapper/rootvg-usr_lv                 6192704    1646144    4231988  29% /usr
+/dev/mapper/rootvg-var_lv                 4128448     452444    3466292  12% /var
+wgnascl-02:/wgnascl_dev_rel/mo_release 4294967296 3168532512 1126434784  74% /mos_release
+wgnascl-02:/usrlocal/rhel6-x86_64        41943040    4422144   37520896  11% /usr/local
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+21: mxsrv/fies
+ksh: mxsrv/fies: not found
+[ibm457:/oltp:prosys]:/oltp/platform/gtms/bin
+22: cd mxsrv
+/oltp/platform/mxsrv
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+23: files
+ksh: files: cannot execute - Is a directory
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+24: /files
+ksh: /files: cannot execute - Is a directory
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+25: ls
+bin/  files/  prod_environment*  prod_install*  public/
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+26: files/
+ksh: files/: cannot execute - Is a directory
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+27: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+
+[ibm457:/oltp:prosys]:/oltp
+28: cd mxsrv
+/oltp/platform/mxsrv
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+29: files
+ksh: files: cannot execute - Is a directory
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv
+30: cd mxsrv/files
+/oltp/platform/mxsrv/files
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+31: ls
+chkpnt1.fil     gateway.msgparm  gateway.rpcparm       mx_server.fil
+chkpnt2.fil     gateway.msgvec   golsrpc.sql           rpcgroup.dat
+gateway.msghdr  gateway.rpchdr   mxgate_prod_rpcs.out
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+32: mx_server.fil
+ksh: mx_server.fil: cannot execute - Permission denied
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+33: cat mx_server.fil
+[CONTROL]
+    PRIM_NOTIFY_MODE = 0
+    START_MODE = AUTO
+    MAX_ES_REQUESTS = 100
+
+[TNI_CONFIG]
+    LOCAL_DOMAIN_NAME = ibm457
+    LISTENING_PORT = 53380
+
+[CLUSTERED_APP]
+    APP_NAME = esconnect
+    OLTP_UNSO_ROUTING = ALL_CLIENTS
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esms
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esrm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esps
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esolpm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esips
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esmm
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = b2b
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = esa
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+
+[CLUSTERED_APP]
+    APP_NAME = estegateway
+    AUTHENTICATION_REQUIRED = FALSE
+    REMOTE_DOMAIN_NAME = xxmos12
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+34: ping xxmos12
+PING xxmos12 (156.24.35.151) 56(84) bytes of data.
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=1 ttl=63 time=0.194 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=2 ttl=63 time=0.324 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=3 ttl=63 time=0.289 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=4 ttl=63 time=0.260 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=5 ttl=63 time=0.756 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=6 ttl=63 time=0.291 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=7 ttl=63 time=0.243 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=8 ttl=63 time=1.24 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=9 ttl=63 time=0.245 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=10 ttl=63 time=0.214 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=11 ttl=63 time=0.251 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=12 ttl=63 time=0.230 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=13 ttl=63 time=0.285 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=14 ttl=63 time=0.254 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=15 ttl=63 time=0.258 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=16 ttl=63 time=0.269 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=17 ttl=63 time=0.237 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=18 ttl=63 time=0.231 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=19 ttl=63 time=0.580 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=20 ttl=63 time=0.262 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=21 ttl=63 time=0.596 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=22 ttl=63 time=0.285 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=23 ttl=63 time=1.47 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=24 ttl=63 time=0.258 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=25 ttl=63 time=0.261 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=26 ttl=63 time=0.296 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=27 ttl=63 time=0.272 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=28 ttl=63 time=0.284 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=29 ttl=63 time=0.246 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=30 ttl=63 time=0.254 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=31 ttl=63 time=0.261 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=32 ttl=63 time=0.370 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=33 ttl=63 time=0.286 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=34 ttl=63 time=0.300 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=35 ttl=63 time=0.248 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=36 ttl=63 time=0.260 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=37 ttl=63 time=0.321 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=38 ttl=63 time=0.489 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=39 ttl=63 time=0.276 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=40 ttl=63 time=0.214 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=41 ttl=63 time=0.277 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=42 ttl=63 time=0.391 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=43 ttl=63 time=0.288 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=44 ttl=63 time=0.735 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=45 ttl=63 time=0.371 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=46 ttl=63 time=0.684 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=47 ttl=63 time=0.243 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=48 ttl=63 time=0.452 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=49 ttl=63 time=0.303 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=50 ttl=63 time=0.256 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=51 ttl=63 time=0.320 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=52 ttl=63 time=0.269 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=53 ttl=63 time=0.250 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=54 ttl=63 time=0.275 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=55 ttl=63 time=0.320 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=56 ttl=63 time=0.284 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=57 ttl=63 time=0.258 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=58 ttl=63 time=0.300 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=59 ttl=63 time=0.257 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=60 ttl=63 time=0.471 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=61 ttl=63 time=0.299 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=62 ttl=63 time=0.285 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=63 ttl=63 time=0.251 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=64 ttl=63 time=0.257 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=65 ttl=63 time=0.265 ms
+64 bytes from xxmos12 (156.24.35.151): icmp_seq=66 ttl=63 time=0.392 ms
+^C
+--- xxmos12 ping statistics ---
+66 packets transmitted, 66 received, 0% packet loss, time 65750ms
+rtt min/avg/max/mdev = 0.194/0.347/1.477/0.215 ms
+[ibm457:/oltp:prosys]:/oltp/platform/mxsrv/files
+35:
+USE THIS IP ADDRESS FOR XXMOS12, IN THE LINK WHICH WE USE TO GO TO DASHBOARD,CHANGE THE IP ADRESS AND YOU CAN USE XXMOS12 TO GET ITS DASHBOARD.
+
+
+

@@ -1,0 +1,52 @@
+Step Down Procedure
+
+This is to be run during a maintenance window before the current Mega Millions draw closes.
+It will need to be done on both systems.
+The version numbers in the below example are not necessarily the ones you will see when you run the procedure.
+
+1. Bring down the Mega Millions product.
+	cd mega/bin
+	prod_kill
+
+2. Backup the current Mega Millions PDF files.
+	cd mega/files
+	lr *pdf*
+There should be these 3 files: pdf013.gdb, pdf013.idx, pdf013.fil
+	tar -cvpf pdf_bck.tar pdf013.gdb pdf013.idx pdf013.fil
+
+3. Run the mega_pdf_stepdown
+	cd mega/bin
+	mega_pdf_stepdown
+
+PDF_STEPDOWN 1.00 Copyright 2013 GTECH Corporation. All rights reserved.
+
+
+Enter the Final Draw for the OLD matrix  [48] >16
+Next prompt for ease of testing.  LIVE SYSTEM SHOULD ENTER 15
+Enter the number of draws stepping down [15] >8
+
+
+Current Multi-Draw value is set to 8.  Will update from Draw 9 to Draw 16
+
+Updated Draw  9 (Version   5). Draws till new matrix  8. Multidraw Days Allowed :  1  2  3  4  5  6  7  8
+Updated Draw  10 (Version   6). Draws till new matrix  7. Multidraw Days Allowed :  1  2  3  4  5  6  7
+Updated Draw  11 (Version   7). Draws till new matrix  6. Multidraw Days Allowed :  1  2  3  4  5  6
+Updated Draw  12 (Version   8). Draws till new matrix  5. Multidraw Days Allowed :  1  2  3  4  5
+Updated Draw  13 (Version   9). Draws till new matrix  4. Multidraw Days Allowed :  1  2  3  4
+Updated Draw  14 (Version   10). Draws till new matrix  3. Multidraw Days Allowed :  1  2  3
+Updated Draw  15 (Version   11). Draws till new matrix  2. Multidraw Days Allowed :  1  2
+Updated Draw  16 (Version   12). Draws till new matrix  1. Multidraw Days Allowed :  1
+
+
+Finished updating the PDF for draws 9 to 16
+
+
+DELETE CHECKPOINTS BEFORE BRINGING THE PRODUCT UP!!!!
+
+4. Delete checkpoints for Mega Millions
+	cd mega/files
+	rm chk*.fil
+
+5. Bring the Mega Millions product back up
+	cd mega/bin
+	prod_start

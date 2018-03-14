@@ -1,0 +1,378 @@
+login as: prosys
+prosys@ibm457's password:
+
+[ibm457::prosys]:/home/prosys
+1: ewatch
+ksh: ewatch: not found
+[ibm457::prosys]:/home/prosys
+2: cd elog/files
+ksh: cd: /home/prosys/elog/files - No such file or directory
+[ibm457::prosys]:/home/prosys
+3: go oltp
+============= /oltp/platform/chkp/prod_environment
+============= /oltp/platform/elog/prod_environment
+============= /oltp/platform/gdb/prod_environment
+============= /oltp/platform/gtms/prod_environment
+============= /oltp/platform/icslog/prod_environment
+============= /oltp/platform/mxsrv/prod_environment
+============= /oltp/platform/pbas/prod_environment
+============= /oltp/platform/plib/prod_environment
+============= /oltp/platform/plog/prod_environment
+============= /oltp/platform/repc/prod_environment
+============= /oltp/platform/snmp/prod_environment
+============= /oltp/platform/symn/prod_environment
+============= /oltp/progam/csh5/prod_environment
+============= /oltp/progam/escc/prod_environment
+============= /oltp/progam/espc/prod_environment
+============= /oltp/progam/keno/prod_environment
+============= /oltp/progam/life/prod_environment
+============= /oltp/progam/loto/prod_environment
+============= /oltp/progam/ltmp/prod_environment
+============= /oltp/progam/mega/prod_environment
+============= /oltp/progam/padn/prod_environment
+============= /oltp/progam/pck3/prod_environment
+============= /oltp/progam/pck4/prod_environment
+============= /oltp/progam/pgam/prod_environment
+============= /oltp/progam/piop/prod_environment
+============= /oltp/progam/pkno/prod_environment
+============= /oltp/progam/plto/prod_environment
+============= /oltp/progam/pnbr/prod_environment
+============= /oltp/progam/praf/prod_environment
+============= /oltp/progam/prmo/prod_environment
+============= /oltp/progam/pvic/prod_environment
+============= /oltp/progam/pwrb/prod_environment
+============= /oltp/progam/rafl/prod_environment
+============= /oltp/progam/trpl/prod_environment
+============= /oltp/progam/wdog/prod_environment
+============= /oltp/progam/xtra/prod_environment
+============= /oltp/proips/idis/prod_environment
+============= /oltp/proips/iinv/prod_environment
+============= /oltp/proips/isbt/prod_environment
+============= /oltp/proips/ival/prod_environment
+============= /oltp/proips/pips/prod_environment
+============= /oltp/prosys/acct/prod_environment
+============= /oltp/prosys/cimp/prod_environment
+============= /oltp/prosys/esrlog/prod_environment
+============= /oltp/prosys/gsrv/prod_environment
+============= /oltp/prosys/gtrm/prod_environment
+============= /oltp/prosys/isrv/prod_environment
+============= /oltp/prosys/itvm/prod_environment
+============= /oltp/prosys/misc/prod_environment
+============= /oltp/prosys/mmdp/prod_environment
+============= /oltp/prosys/olcv/prod_environment
+============= /oltp/prosys/pccl/prod_environment
+============= /oltp/prosys/pgen/prod_environment
+============= /oltp/prosys/pia/prod_environment
+============= /oltp/prosys/tmir/prod_environment
+============= /oltp/prosys/usec/prod_environment
+============= /oltp/util/prod_environment
+
+
+Skipping proj_install - use 'reinstall xxx' to force proj_install
+
+
+** Archive base directory:    none
+** Project name:              OLTP
+** Project base directory:    /oltp
+** Project branch label:      MOS_no_archves
+** Project IPS_DB_NAME:       ips_db
+** Project DB2INSTANCE:       gtkinst1
+
+** Start Products with user:  prosys
+
+
+[ibm457:/oltp:prosys]:/oltp
+4: cd elog/files
+/oltp/platform/elog/files
+[ibm457:/oltp:prosys]:/oltp/platform/elog/files
+5: ls
+elf20170419.fil  elf20170515.fil  elf20170620.fil  elf20170626.fil  elf20170711.fil  elf20170712.fil  old-elogs/
+[ibm457:/oltp:prosys]:/oltp/platform/elog/files
+6: ls -l
+total 824
+-rw-rw---- 1 prosys prosys    242 May 15 12:42 elf20170419.fil
+-rw-rw---- 1 prosys prosys    385 Jun 20 19:21 elf20170515.fil
+-rw-rw---- 1 prosys prosys    691 Jun 26 17:43 elf20170620.fil
+-rw-rw---- 1 prosys prosys    510 Jul 11 07:55 elf20170626.fil
+-rw-rw---- 1 prosys prosys   9066 Jul 11 19:33 elf20170711.fil
+-rw-rw---- 1 prosys prosys 809718 Jul 12 16:17 elf20170712.fil
+drwxrwx--- 2 prosys prosys   4096 Mar 27 17:26 old-elogs/
+[ibm457:/oltp:prosys]:/oltp/platform/elog/files
+7: grep snmp \old-elogs/
+[ibm457:/oltp:prosys]:/oltp/platform/elog/files
+8: grep snmp elf20170712.fil
+0025520170712 02 14:29:10 I 7 gtms:GXOPRSRV   255:00112 Starting product snmp (prosys)
+0019620170712 02 14:29:20 IL7 snmp:setup      255:00001 setup 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0019620170712 02 14:29:21 IL7 snmp:setup      255:00025 End of task
+0019620170712 02 14:29:21 IL7 snmp:mainpro    255:00001 mainpro 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0019620170712 02 14:29:22 IL7 snmp:readpro    255:00001 readpro 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0019620170712 02 14:29:23 IL7 snmp:writepro   255:00001 writepro 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0019620170712 02 14:29:24 IL7 snmp:qrysrv     255:00001 qrysrv 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0025520170712 02 16:17:36 WL7 gtms:GXKILLSYS  255:00067 Killing product snmp (GXKILLSYS)
+[ibm457:/oltp:prosys]:/oltp/platform/elog/files
+9: grep snmp elf20170712.fil
+0025520170712 02 14:29:10 I 7 gtms:GXOPRSRV   255:00112 Starting product snmp (prosys)
+0019620170712 02 14:29:20 IL7 snmp:setup      255:00001 setup 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0019620170712 02 14:29:21 IL7 snmp:setup      255:00025 End of task
+0019620170712 02 14:29:21 IL7 snmp:mainpro    255:00001 mainpro 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0019620170712 02 14:29:22 IL7 snmp:readpro    255:00001 readpro 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0019620170712 02 14:29:23 IL7 snmp:writepro   255:00001 writepro 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0019620170712 02 14:29:24 IL7 snmp:qrysrv     255:00001 qrysrv 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0025520170712 02 16:17:36 WL7 gtms:GXKILLSYS  255:00067 Killing product snmp (GXKILLSYS)
+[ibm457:/oltp:prosys]:/oltp/platform/elog/files
+10: grep pwrb elf20170712.fil
+0025520170712 02 14:29:10 I 7 gtms:GXOPRSRV   255:00112 Starting product pwrb (prosys)
+0001220170712 02 14:29:20 IL7 pwrb:setup      255:00001 setup 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 14:29:27 IL7 pwrb:setup      255:00025 End of task
+0001220170712 02 14:29:28 IL7 pwrb:gampro     255:00001 gampro 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 14:29:29 IL7 pwrb:iosrv      255:00001 iosrv 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 14:29:30 IL7 pwrb:pmserver   255:00001 pmserver 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 14:29:31 IL7 pwrb:qrysrv     255:00001 qrysrv 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0001220170712 02 14:29:32 IL7 pwrb:pmserver   103:00444 teller file for cdc 9716 available
+0001220170712 02 14:29:32 IL7 pwrb:pmserver   103:00359 re-execution of dayprep is invalid
+0001220170712 02 14:29:35 IL7 pwrb:pmserver   103:00359 re-execution of post_sub_sales is invalid
+0001220170712 02 14:29:38 IL7 pwrb:pmserver   103:00359 re-execution of win_load is invalid
+0001220170712 02 14:29:41 IL7 pwrb:pmserver   103:00359 re-execution of daily_xml is invalid
+0001220170712 02 14:29:44 IL7 pwrb:pmserver   103:00359 re-execution of drawsale_report is invalid
+0001220170712 02 14:29:47 IL7 pwrb:gampro     103:00909 Task completion codes match (task: win_load, code: PRGSTS_DONE)
+0001220170712 02 14:29:47 IL7 pwrb:gampro     103:00607 win_load completed with shares for draw 9
+0001220170712 02 14:29:47 IL7 pwrb:pmserver   103:00359 re-execution of liab_update_and_purge is invalid
+0001220170712 02 14:29:50 IL7 pwrb:pmserver   103:00359 re-execution of retailer_winners_rep is invalid
+0001220170712 02 14:29:53 IL7 pwrb:gampro     103:00909 Task completion codes match (task: liab_update_and_purge, code: PRGSTS_DONE)
+0001220170712 02 14:29:53 IL7 pwrb:pmserver   103:00359 re-execution of win_reports is invalid
+0001220170712 02 14:29:56 IL7 pwrb:pmserver   103:00359 re-execution of winner_awareness_interface is invalid
+0001220170712 02 14:29:59 IL7 pwrb:pmserver   103:00359 re-execution of cash_report is invalid
+0001220170712 02 14:30:03 IL7 pwrb:pmserver   103:00359 re-execution of uncash_expire_report is invalid
+0001220170712 02 14:30:06 IL7 pwrb:pmserver   103:00359 re-execution of eft_autopay is invalid
+0001220170712 02 14:30:09 IL7 pwrb:pmserver   103:00359 re-execution of advance_sales_report is invalid
+0001220170712 02 14:30:12 IL7 pwrb:pmserver   103:00359 re-execution of cash_purge_report is invalid
+0001220170712 02 14:30:15 IL7 pwrb:pmserver   103:00359 re-execution of uncash_purge_report is invalid
+0001220170712 02 14:30:18 IL7 pwrb:pmserver   103:00359 re-execution of dup_multi_scan is invalid
+0001220170712 02 14:30:21 IL7 pwrb:pmserver   103:00359 re-execution of cash_subscription_report is invalid
+0001220170712 02 14:30:24 IL7 pwrb:iosrv      103:00389 otwf and draw files now available
+0001220170712 02 14:30:24 IL7 pwrb:gampro     103:00390 otwf and draw files now unavailable
+0001220170712 02 14:30:24 IL7 pwrb:pmserver   103:00359 re-execution of liab_report is invalid
+0001220170712 02 14:30:27 IL7 pwrb:pmserver   103:00359 re-execution of asv_shrs_payable is invalid
+0001220170712 02 14:30:30 IL7 pwrb:pmserver   103:00359 re-execution of shrink_ptm is invalid
+0001220170712 02 14:30:33 IL7 pwrb:gampro     103:00909 Task completion codes match (task: shrink_ptm, code: PRGSTS_DONE)
+0001220170712 02 14:30:33 IL7 pwrb:iosrv      103:00389 otwf and draw files now available
+0001220170712 02 14:30:33 IL7 pwrb:pmserver   103:00359 re-execution of asv_otwfsts is invalid
+0001220170712 02 14:30:36 IL7 pwrb:pmserver   103:00359 re-execution of file_cleanup is invalid
+0001220170712 02 14:30:36 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:36 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:36 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:36 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:36 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:36 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:36 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:36 IL7 pwrb:pmserver   103:00359 re-execution of endprep is invalid
+0001220170712 02 14:30:39 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 961 (mjf bucket 325)
+0001220170712 02 14:30:39 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 961 (mjf bucket 325)
+0001220170712 02 14:30:39 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 961 (mjf bucket 325)
+0001220170712 02 14:30:39 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 961 (mjf bucket 325)
+0001220170712 02 14:30:39 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 961 (mjf bucket 325)
+0001220170712 02 14:30:39 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 961 (mjf bucket 325)
+0001220170712 02 14:30:39 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 961 (mjf bucket 325)
+0001220170712 02 14:30:39 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 961 (mjf bucket 325)
+0001220170712 02 14:30:39 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:39 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:40 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 14:30:42 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:42 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:42 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:42 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:42 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:43 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:43 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:43 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:43 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:43 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:43 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:43 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:44 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:44 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:44 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:44 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:44 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:44 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:44 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:44 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:45 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:45 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:45 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:45 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:45 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:30:45 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 14:59:15 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 2169 (mjf bucket 983)
+0001220170712 02 15:27:45 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 2177 (mjf bucket 1002)
+0019720170712 02 15:45:27 EL7 symn:mainpro    255:00056 Product: 12 (pwrb) qrysrv not running - monitoring data currently unavailable.
+0025520170712 02 15:45:52 IL7 gtms:GXOPRSRV   255:00274 Deleting checkpoint files for product pwrb (prosys)
+0025520170712 02 15:45:59 IL7 gtms:GXOPRSRV   255:00112 Starting product pwrb (prosys)
+0001220170712 02 15:45:59 IL7 pwrb:setup      255:00001 setup 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 15:46:00 IL7 pwrb:setup      255:00025 End of task
+0001220170712 02 15:46:00 IL7 pwrb:gampro     255:00001 gampro 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 15:46:01 IL7 pwrb:iosrv      255:00001 iosrv 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 15:46:02 IL7 pwrb:pmserver   255:00001 pmserver 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 15:46:02 IL7 pwrb:pmserver   103:00444 teller file for cdc 9716 available
+0001220170712 02 15:46:02 IL7 pwrb:pmserver   103:00359 re-execution of dayprep is invalid
+0001220170712 02 15:46:03 IL7 pwrb:qrysrv     255:00001 qrysrv 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0001220170712 02 15:46:05 IL7 pwrb:pmserver   103:00359 re-execution of post_sub_sales is invalid
+0001220170712 02 15:46:08 IL7 pwrb:pmserver   103:00359 re-execution of win_load is invalid
+0001220170712 02 15:46:11 IL7 pwrb:pmserver   103:00359 re-execution of daily_xml is invalid
+0001220170712 02 15:46:14 IL7 pwrb:pmserver   103:00359 re-execution of drawsale_report is invalid
+0001220170712 02 15:46:17 IL7 pwrb:gampro     103:00909 Task completion codes match (task: win_load, code: PRGSTS_DONE)
+0001220170712 02 15:46:17 IL7 pwrb:gampro     103:00607 win_load completed with shares for draw 9
+0001220170712 02 15:46:17 IL7 pwrb:pmserver   103:00359 re-execution of liab_update_and_purge is invalid
+0001220170712 02 15:46:20 IL7 pwrb:pmserver   103:00359 re-execution of retailer_winners_rep is invalid
+0001220170712 02 15:46:23 IL7 pwrb:gampro     103:00909 Task completion codes match (task: liab_update_and_purge, code: PRGSTS_DONE)
+0001220170712 02 15:46:23 IL7 pwrb:pmserver   103:00359 re-execution of win_reports is invalid
+0001220170712 02 15:46:26 IL7 pwrb:pmserver   103:00359 re-execution of winner_awareness_interface is invalid
+0001220170712 02 15:46:29 IL7 pwrb:pmserver   103:00359 re-execution of cash_report is invalid
+0001220170712 02 15:46:32 IL7 pwrb:pmserver   103:00359 re-execution of uncash_expire_report is invalid
+0001220170712 02 15:46:35 IL7 pwrb:pmserver   103:00359 re-execution of eft_autopay is invalid
+0001220170712 02 15:46:38 IL7 pwrb:pmserver   103:00359 re-execution of advance_sales_report is invalid
+0001220170712 02 15:46:41 IL7 pwrb:pmserver   103:00359 re-execution of cash_purge_report is invalid
+0001220170712 02 15:46:44 IL7 pwrb:pmserver   103:00359 re-execution of uncash_purge_report is invalid
+0001220170712 02 15:46:47 IL7 pwrb:pmserver   103:00359 re-execution of dup_multi_scan is invalid
+0001220170712 02 15:46:50 IL7 pwrb:pmserver   103:00359 re-execution of cash_subscription_report is invalid
+0001220170712 02 15:46:53 IL7 pwrb:iosrv      103:00389 otwf and draw files now available
+0001220170712 02 15:46:53 IL7 pwrb:gampro     103:00390 otwf and draw files now unavailable
+0001220170712 02 15:46:54 IL7 pwrb:pmserver   103:00359 re-execution of liab_report is invalid
+0001220170712 02 15:46:57 IL7 pwrb:pmserver   103:00359 re-execution of asv_shrs_payable is invalid
+0001220170712 02 15:47:00 IL7 pwrb:pmserver   103:00359 re-execution of shrink_ptm is invalid
+0001220170712 02 15:47:03 IL7 pwrb:gampro     103:00909 Task completion codes match (task: shrink_ptm, code: PRGSTS_DONE)
+0001220170712 02 15:47:03 IL7 pwrb:iosrv      103:00389 otwf and draw files now available
+0001220170712 02 15:47:03 IL7 pwrb:pmserver   103:00359 re-execution of asv_otwfsts is invalid
+0001220170712 02 15:47:06 IL7 pwrb:pmserver   103:00359 re-execution of file_cleanup is invalid
+0001220170712 02 15:47:06 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:06 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:06 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:06 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:06 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:06 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 945 (mjf bucket 283)
+0001220170712 02 15:47:06 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:06 IL7 pwrb:pmserver   103:00359 re-execution of endprep is invalid
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 961 (mjf bucket 325)
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 961 (mjf bucket 325)
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 961 (mjf bucket 325)
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 961 (mjf bucket 325)
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 961 (mjf bucket 325)
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 961 (mjf bucket 325)
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1001 (mjf bucket 409)
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1017 (mjf bucket 450)
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1049 (mjf bucket 538)
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1241 (mjf bucket 570)
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1521 (mjf bucket 691)
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:09 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1561 (mjf bucket 797)
+0001220170712 02 15:47:09 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:10 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:10 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:10 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1593 (mjf bucket 879)
+0001220170712 02 15:47:10 EL7 pwrb:gampro     253:00017 Previous checkpoint has not completed
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:10 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:11 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:11 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:11 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:11 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:11 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:11 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:11 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:11 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt2.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:47:11 IL7 pwrb:gampro     253:00001 Checkpointed to /oltp/progam/pwrb/files/chkpnt1.fil at serial 1977 (mjf bucket 952)
+0001220170712 02 15:55:45 FL7 pwrb:gampro     255:00056 STOP complete
+0001220170712 02 15:55:45 FL7 pwrb:gampro     255:00166 Task is aborting
+0001220170712 02 15:55:45 IL7 pwrb:qrysrv     255:00025 End of task
+0001220170712 02 15:55:45 IL7 pwrb:iosrv      255:00025 End of task
+0001220170712 02 15:55:45 IL7 pwrb:pmserver   255:00025 End of task
+0001220170712 02 15:55:46 IL7 pwrb:gampro     255:00025 End of task
+0019720170712 02 15:55:57 EL7 symn:mainpro    255:00056 Product: 12 (pwrb) not running - monitoring data currently unavailable.
+0001220170712 02 16:16:30 IL7 pwrb:setup      255:00001 setup 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 16:16:31 IL7 pwrb:setup      255:00025 End of task
+0001220170712 02 16:16:31 IL7 pwrb:gampro     255:00001 gampro 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 16:16:32 IL7 pwrb:iosrv      255:00001 iosrv 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 16:16:33 IL7 pwrb:pmserver   255:00001 pmserver 1.00 Copyright 2017 GTECH Corporation. All rights reserved.
+0001220170712 02 16:16:33 IL7 pwrb:pmserver   103:00444 teller file for cdc 9716 available
+0001220170712 02 16:16:33 IL7 pwrb:pmserver   103:00359 re-execution of dayprep is invalid
+0001220170712 02 16:16:34 IL7 pwrb:qrysrv     255:00001 qrysrv 1.0 Copyright 2016 GTECH Corporation. All rights reserved.
+0001220170712 02 16:16:36 IL7 pwrb:pmserver   103:00359 re-execution of post_sub_sales is invalid
+0001220170712 02 16:16:39 IL7 pwrb:pmserver   103:00359 re-execution of win_load is invalid
+0001220170712 02 16:16:42 IL7 pwrb:pmserver   103:00359 re-execution of daily_xml is invalid
+0001220170712 02 16:16:45 IL7 pwrb:pmserver   103:00359 re-execution of drawsale_report is invalid
+0001220170712 02 16:16:48 IL7 pwrb:gampro     103:00909 Task completion codes match (task: win_load, code: PRGSTS_DONE)
+0001220170712 02 16:16:48 IL7 pwrb:gampro     103:00607 win_load completed with shares for draw 9
+0001220170712 02 16:16:48 IL7 pwrb:pmserver   103:00359 re-execution of liab_update_and_purge is invalid
+0001220170712 02 16:16:51 IL7 pwrb:pmserver   103:00359 re-execution of retailer_winners_rep is invalid
+0001220170712 02 16:16:55 IL7 pwrb:gampro     103:00909 Task completion codes match (task: liab_update_and_purge, code: PRGSTS_DONE)
+0001220170712 02 16:16:55 IL7 pwrb:pmserver   103:00359 re-execution of win_reports is invalid
+0001220170712 02 16:16:58 IL7 pwrb:pmserver   103:00359 re-execution of winner_awareness_interface is invalid
+0001220170712 02 16:17:01 IL7 pwrb:pmserver   103:00359 re-execution of cash_report is invalid
+0001220170712 02 16:17:04 IL7 pwrb:pmserver   103:00359 re-execution of uncash_expire_report is invalid
+0001220170712 02 16:17:07 IL7 pwrb:pmserver   103:00359 re-execution of eft_autopay is invalid
+0001220170712 02 16:17:10 IL7 pwrb:pmserver   103:00359 re-execution of advance_sales_report is invalid
+0001220170712 02 16:17:13 IL7 pwrb:pmserver   103:00359 re-execution of cash_purge_report is invalid
+0001220170712 02 16:17:16 IL7 pwrb:pmserver   103:00359 re-execution of uncash_purge_report is invalid
+0001220170712 02 16:17:19 IL7 pwrb:pmserver   103:00359 re-execution of dup_multi_scan is invalid
+0001220170712 02 16:17:22 IL7 pwrb:pmserver   103:00359 re-execution of cash_subscription_report is invalid
+0001220170712 02 16:17:25 IL7 pwrb:iosrv      103:00389 otwf and draw files now available
+0001220170712 02 16:17:25 IL7 pwrb:gampro     103:00390 otwf and draw files now unavailable
+0001220170712 02 16:17:25 IL7 pwrb:pmserver   103:00359 re-execution of liab_report is invalid
+0001220170712 02 16:17:28 IL7 pwrb:pmserver   103:00359 re-execution of asv_shrs_payable is invalid
+0001220170712 02 16:17:31 IL7 pwrb:pmserver   103:00359 re-execution of shrink_ptm is invalid
+0001220170712 02 16:17:34 IL7 pwrb:gampro     103:00909 Task completion codes match (task: shrink_ptm, code: PRGSTS_DONE)
+0001220170712 02 16:17:34 IL7 pwrb:iosrv      103:00389 otwf and draw files now available
+0001220170712 02 16:17:34 IL7 pwrb:pmserver   103:00359 re-execution of asv_otwfsts is invalid
+0025520170712 02 16:17:35 WL7 gtms:GXKILLSYS  255:00067 Killing product pwrb (GXKILLSYS)
+[ibm457:/oltp:prosys]:/oltp/platform/elog/files
+11:
